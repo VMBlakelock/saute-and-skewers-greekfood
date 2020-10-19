@@ -2,53 +2,46 @@
 
 # Saute & Skewers | Greek Food 
 
-## Aim
+### Aim
 
-To create a fun interactive front end website that responds accordingly to the users actions. This website is designed so users can create their 'Perfect Date' by selecting specified dropdown criteria and clicking the button. The outcome will reveal their chosen perfect date.
+To create ...................................................
 
-Technologies to be used in the project are HTML/CSS/Javascript with optional framework and API.
+Technologies to be used in the project are HTML/CSS/..................
 
-## Purpose
+### Purpose
 
-The owner of Destination Date Night wants to create a fun website that allows users to interact using differing functionality. The user will select specified criteria from the two dropdowns then click a button, this will in turn produce an outcome. The user can review this outcome in order to make a decision on where to go on their date.
+The owner of Saute & Skewers wants to create ............. that allows users to manipulate data using CRUD functionality. 
 
-It is hoped that the users will find the website to be a fun and interesting way to gather ideas for a date. By using the search criteria offered and the results the site returns the user can plan a date that will suit their individual needs.
+It is hoped that the users will find the website to be ............... 
 
 ## UX
 
 ## User stories
 
-### Guest Account
+### Guest User
 ### Registered Account
-### Admin Account
+### Admin User
 
-### Site Owner
+### Website Owner
 
-The owner would like users of the website to - 
+The owner would like users of the website to:
 
--  Interact with the site to find their perfect date.
+-  Interact with the site to ..............
 
--  Enjoy the site and use it as a useful tool to find ideas.
+-  Enjoy the site and use it as a useful tool to find ideas for..............
 
--  Find the site is fun and simple to use.
+-  Contribute to the site to.........................
 
 
+The owner would like the website design: 
 
-The owner would like the website design - 
+- To be xxxxxx looking with colors and a theme that portrays this.
 
-- To be sultry looking with colors and a theme that portrays this.
+- To have a hero image that creates xxxxxxxxxxxxxxxxxx.
 
-- To have a hero image that creates mystery and excitment.
+- To have a navigation bar that links to xxxxxxxxxxxxxxxx when clicked.
 
-- To be one page with two easy to navigate sections. Section 1 - The Dating Game and Section 2 - Create A Date.
-
-- To have a navigation bar that links to the sections when clicked.
-
-- To house dropdowns with specified criteria that can be selected.
-
-- To have a button that when clicked reveals and output.
-
-- To use the Google Maps JS API to have a marker on the destinations so the user can click to learn more.
+- To have buttons that when clicked ..............................
 
 - To have a footer containing social media icons that link to other sites.
 
@@ -58,24 +51,21 @@ The owner would like the website design -
 
 The site will -
 
-1. Have three main sections, the first a hero image with text enticing the user to look further, the second will be a querky narrative explaining the site, the third will house the interactivity.
-2. Explain the websites outcome by instructing how it is to be used.
-3. Based on criteria selected, output a 'date' which will be in text form. Also the Google Maps JS API will host static markers where the user, based on their criteria selection can click on the specific 'City' marker where the date location and direct link to the website will be. 
-4. Link to external social media sites.
-5. Will have contact details - location and email address of Destination Date Night HQ.
+1. Have xxx main pages, the first ......................................
+2. Link to social media sites.
+5. Will have a copyright.
 
 
 ### Potential client
 
-As a potential user of this site, the user would -
+As a potential user of this site, the user would:
 
- - Discover what Destination Date Night is, how it works and what its output is.
+ - Discover Saute & Skewers, ..............how it works and what its output is.
  - See a brand that draws users in and then after user interaction entices users to find out more.
  - Find its USP (unique selling point) is its uniqueness. During initial research the owner was unaware of a site like this. 
  - Understand what functionalities it offers.
  - Be encouraged to find out more about the brand and company by clicking links to social media pages.
- - Be able to contact Destination Date Night with questions (via a contact form direct from site, via a link to social media, or telephone).
-
+ 
 
 <img src="assets/images/destination-date-night-devices-mock-up.png">
 
@@ -85,23 +75,31 @@ As a potential user of this site, the user would -
 
 - Saute & Skewers..... is currently a simple fun interactive website. It allows simple usage to provide a fun factor for idea gathering. It features the 3 core languages of web development HTML, CSS and Javascript and Google Maps JS API as a prime feature. 
 
-- There is a clear brand (although no logo as of yet) and a company philosophy of "Making Memories" whilst incorporating this the fun factor was required to be a major part of the content.
+- There is a clear brand and a company philosophy of "xxxxxxxxxxxxxxxxxx" whilst incorporating this the fun factor was required to be a major part of the content.
 
-- Saute & Skewers..... has the potential of not only being a popular fun idea gathering site for current users, it potentially has the power to become a thriving business site. By adding a few addtional features to the site and marketing it well, Destination Date night could be something with a decent ROI.
+- Saute & Skewers..... has the potential of not only being a xxxxxxxxxxxxxxxxxxxxxxxxxxx for current users, it potentially has the power to become a thriving business site. By adding a few addtional features to the site and marketing it well, Saute & Skewers could be something with a decent ROI.
 
-- During research I was unable to find any other sites that had the same 'making memories' concept within a simple game like page making Destination Date Night a niche. 
+- During research there where many other sites that had the same concept ..................................... 
 
 
 ### Scope 
 
-- The site was developed with simplicity in mind. It was scoped to provide a straight forward approach, the user was to click a few dropdowns and a button and the site would produce an outcome. The Google Map JS API was to be the prime feature.
+- The site was developed with the intention of ................................ 
+
+- It was scoped to provide a .....................................
 
 
 ### Structure
 
-- Saute & Skewers site structure was to hold pages that where relevant and required. 
+- Saute & Skewers site structure was to hold pages that where relevant and required to enable users to ................... 
 
-- The site has X areas, Navbar, Hero Image, 2 main sections with descriptive text and interactivity and a footer. It is hoped the user would be drawn into the site with by the brand design, color, image and text.
+The site has X pages:
+- the main Home page houses a Navbar, Hero Image and xxxx main sections and a footer. 
+- the Register page ..............
+- the Login page .................
+- the profile page .....................
+
+- With a great brand design, traditional Greek color, images and text it is anticipated that the user would be ........................
 
 
 ### Skeleton
@@ -112,7 +110,8 @@ Wireframes where created for all pages of the site.
 
 Desktop and Mobile wireframes were created to demonstrate xxxxxxxxx. 
 
-They were created using [Balsamiq](https://balsamiq.com/wireframes/).
+All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
+
 
 Click below to view:
 
@@ -181,6 +180,9 @@ Saute & Skewers - Future features could include:
 - [Flask](https://xxxxxx.com/)
 - [Materialize](https://xxxxxx.com/)
 
+#### Database
+- [MongoDB](https://xxxxxxx.com/)
+
 #### Text Editor
 - [Gitpod](https://gitpod.io/)
 
@@ -203,8 +205,8 @@ Saute & Skewers - Future features could include:
 
 ## Defensive Design
 
-## Testing
-### Features:
+### Testing
+#### Features:
 
 Testing was undertaken during the creation of this site, manual testing included tests on various devices. W3C Markup Validator, validation check was ongoing throughout the project development.
 Pep8 compliance ......
@@ -250,16 +252,11 @@ Laptop:
 
 ## Evaluation
 
-- The owner is pleased with the design and development of this site. It has all the basic requirements of a functional website and meets the project criteria.
-- The site definitely has room for future interactive activity, functionality and imagery.
-- During later stages of development it was realised some of the testing should have been branched off to show the workings. Something the owner will keep in mind for next time.
-- All testing was manual, the use of the Jasmine framework was not used. Again something to consider in the future, especially if additional functionalities are added at a later stage.
-- In User Stories in 'the site will' section it was stated - *Also the Google Maps JS API will host static markers where the user, based on their criteria selection can click on the specific 'City' marker where the date location and direct link to the website will be.* However this idea and functionality was not applied, primarily due to not having a full understanding of its concept and due to time contraints. 
-  It wasnt feasible to add the marker functionality to the site just so it had something that was interactive when the developer wasn't confident in their abilities to be able to explain the workings and possibly only having one marker that worked. Therefore it was decided to develop the site with only one static marker on the map that pre sat on opening and when hovered over on a laptop popped up text.
-  Once the developer has a better understanding in place this feature will be the first to be added. Being able to click the marker of the date location and it provide at minimum the name of the date location and a link to it was one of the prime functionalities during inception.
-- In Potential Client section, it was stated the user could *contact Destination Date Night with questions (via a contact form direct from site)*, a form wasnt implemented again due to time constraints. A workaround was thought about and tested by way of an alert box - as explained in Testing section - Issue 7. When this feature is implemented EmailJS is a possible tool to use.
-- It was found during the last stages of building this site that there was actually a site slightly like Destination Date Night. It was found when adding the final destination criteria to the site. The owner was disheartened and discouraged on the finding after the hard work and thought put into designing this site. 
-  Here is the similar site [Designmynight](https://www.designmynight.com/)
+- Overall the design and development of this site is ................. It has all the basic requirements of a functional website and meets the project criteria.
+- Many future features could be added to provide more interactive activity, functionality and imagery.
+- Branch testing ............................
+- Manual Testing was undertaken ..........................
+- 
 
 
 ## Deployment
