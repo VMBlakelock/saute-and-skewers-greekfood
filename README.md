@@ -2,6 +2,19 @@
 
 # Saute & Skewers | Greek Food 
 
+
+## Introduction
+
+With visitors from all over the world Greece is notably a favourite to all tourists. One of Greece's highlights is by far it food.
+
+From street food, quality cuisine to Mama's homecooked treats, the Greek have a wide variety of superb delights to offer.
+
+This site allows the owner/admin user to showcase their best loved recipes and hopes to gain traffic in the form of registered users to form a fantastic database of user favourites.
+
+
+<hr>
+
+
 ### Aim
 
 To create a functional website that allows users to manipulate data using the CRUD functionality.
@@ -10,27 +23,41 @@ Prime technologies to be used in the project are HTML/CSS/Javascript/Python/Flas
 
 ### Purpose
 
-Saute & Skewers is a website where users can view recipes in the database, however registered users can also manipulate thier own data using the create, read, update and delete - CRUD functionality.
+Saute & Skewers is a website where users can view recipes stored in the sites database, however registered users can also manipulate thier own data using the create, read, update and delete - CRUD functionality.
 
-It is hoped that all users to the site will find the website to be of interest and of use. With the added benefit of being part of a community.
+It is hoped that all users to the site will find the website to be of interest and of use. Registered user have the added benefit of actively being part of a community.
+
 
 <hr>
-
-## Introduction
-
 
 
 ## UX
 
 ## User stories
 
+There are three types of users for this website, users stories for each are discussed below:
+
 ### Guest User
+
+- As a guest user I want to ....
+- As a guest user I want to ....
+- As a guest user I want to ....
+
 ### Registered Account
+
+- As a registered user I want to ....
+- As a registered user I want to ....
+- As a registered user I want to ....
+
 ### Admin User
+
+- As an admin user I want to ....
+- As an admin user I want to ....
+- As an admin user I want to ....
 
 ### Website Owner
 
-The owner would like users of the website to:
+The website owner would like users of the website to:
 
 -  Interact with the site to ..............
 
@@ -39,7 +66,7 @@ The owner would like users of the website to:
 -  Contribute to the site to.........................
 
 
-The owner would like the website design: 
+The website owner would like the website design: 
 
 - To be xxxxxx looking with colors and a theme that portrays this.
 
@@ -54,18 +81,6 @@ The owner would like the website design:
 - To include company contact details.
 
 
-
-The site will -
-
-1. Have xxx main pages, the first ......................................
-2. Link to social media sites.
-5. Will have a copyright.
-
-
-### Potential client
-
-As a potential user of this site, the user would:
-
  - Discover Saute & Skewers, ..............how it works and what its output is.
  - See a brand that draws users in and then after user interaction entices users to find out more.
  - Find its USP (unique selling point) is its uniqueness. During initial research the owner was unaware of a site like this. 
@@ -73,9 +88,16 @@ As a potential user of this site, the user would:
  - Be encouraged to find out more about the brand and company by clicking links to social media pages.
  
 
+
+<hr>
+
+
+
+
 <img src="static/images/greek-restaurant.jpeg">
 
-## 5 Planes
+
+## The 5 Planes of content strategy
 
 ### Strategy
 
@@ -103,14 +125,12 @@ The site has X pages:
 - the main Home page houses a Navbar, Hero Image and xxxx main sections and a footer. 
 - the Register page ..............
 - the Login page .................
-- the profile page .....................
+- the Recipes page .....................
 
 - With a great brand design, traditional Greek color, images and text it is anticipated that the user would be ........................
 
 
 ### Skeleton
-
-#### Wireframes
 
 Wireframes where created for all pages of the site.
 
@@ -127,15 +147,13 @@ Desktop:
 [Login](wireframes/login-desktop.png)
 [Recipes](wireframes/recipes-desktop.png)
 
+
 Mobile:
 
 [Base](wireframes/base-mobile.png)
 [Register](wireframes/register-mobile.png)
 [Login](wireframes/login-mobile.png)
 [Recipes](wireframes/recipes-mobile.png)
-
-
-
 
 
 
@@ -147,6 +165,7 @@ The site's "xxxxx" colors of blues and whites where chosen to enhance this feeli
 Users will see that Saute & Skewers..... is aiming for a luxurious look. The Hero image provides that instant attraction on site opening.
 
 
+<hr>
 
 ## Features 
 
@@ -172,14 +191,16 @@ Social Media Links: Saute & Skewers has various Social Media accounts therefore 
 Saute & Skewers - Future features could include:
 
 - Having a larger database library for each category library.
-- An image field where user can upload images of their presented foods.
-- A badge or icon level that users of the site can achieve - i.e - Top Contributer.
+- An image field where users can upload images of their presented foods.
+- Users owning a profile page.
+- A badge or icon level that registered users of the site could achieve, when X number of entries have been added - i.e - Top Contributer.
 - A blog.
 - A messenger area where users can chat to each other live on the site.
 - An e commerce shop where users could order greek foods and merchandise.
 
+<hr>
 
-## Technologies 
+## Technologies and Frameworks 
 
 #### Technologies
 - HTML
@@ -187,12 +208,12 @@ Saute & Skewers - Future features could include:
 - Javascript
 
 #### Frameworks
-- [JQuery](https://xxxxxxx.com/)
-- [Flask](https://xxxxxx.com/)
-- [Materialize](https://xxxxxx.com/)
+- [JQuery](https://jquery.com/)
+- [Flask](https://www.fullstackpython.com/flask.html)
+- [Materialize](https://materializecss.com/)
 
 #### Database
-- [MongoDB](https://xxxxxxx.com/)
+- [MongoDB](https://www.mongodb.com/cloud/atlas/)
 
 #### Text Editor
 - [Gitpod](https://gitpod.io/)
@@ -201,7 +222,7 @@ Saute & Skewers - Future features could include:
 - Git
 
 #### Hosting Platform
-- [Heroku](https://xxxxxx.com/) - For the live deployed site
+- [Heroku](https://https://dashboard.heroku.com/) - For the live deployed site
 - [Github](https://github.com/) - To house the sites repository
 
 #### Developer Tools
@@ -210,9 +231,10 @@ Saute & Skewers - Future features could include:
 #### Validation sites
 - [W3C Markup Validation](https://validator.w3.org/)
 - [Jshint](https://jshint.com/)
-- PEP8 ..................
+- [PEP8](http://pep8online.com/)
 
 
+<hr>
 
 ## Defensive Design
 
@@ -246,7 +268,7 @@ Validation sites
 
 - Chrome: Using Google Developer Tools - Chrome was used for testing on Laptop, Tablet and Android devices.
 
-- Safari: Safari wasn't used for testing on an I phone or Mac, due to not having access to these type of devices.
+- Safari: Safari wasn't used for testing on an I phone or Mac, due to not having physical access to these type of devices. However they were viewed on Google Dev Tools.
 
 ### Devices tested
 
@@ -261,6 +283,9 @@ Laptop:
 - Toshiba Satellite C850 - Outcome: Site works perfectly. No bugs found. All is responsive. 
 
 
+<hr>
+
+
 ## Evaluation
 
 - Overall the design and development of this site is ................. It has all the basic requirements of a functional website and meets the project criteria.
@@ -269,8 +294,17 @@ Laptop:
 - Manual Testing was undertaken ..........................
 - 
 
+<hr>
+
 
 ## Deployment
+
+#### Heroku:
+
+
+
+
+##### Github:
 
 In order to deploy the project to [GitHub](https://github.com/) Pages from its GitHub repository, follow the below steps:
 
@@ -293,6 +327,8 @@ If you want to run this project locally, we must clone the project for Github:
 7. Press Enter. Your local clone is now created.
 
 
+<hr>
+
 
 ## Credits and References
 
@@ -306,7 +342,11 @@ Tutor Support
 Web References
 - []()
     - 
-    
+
+
+<hr>
+
+
 #### Websites reviewed
 
 Websites reviewed and used during the creation of this project.
@@ -314,7 +354,7 @@ Websites reviewed and used during the creation of this project.
 - [Markdownguide](https://www.markdownguide.org/basic-syntax/)
   - This website was used to refresh knowledge on how to use Markdown.
 
-- [codeacademy](https://www.codeacademy.com/articles/what-is-crud/)
+- [Codeacademy](https://www.codeacademy.com/articles/what-is-crud/)
   - Article referring to what is CRUD and its uses.
 
 - [Google Fonts](https://www.fonts.google.com/basic-syntax/)
@@ -333,16 +373,22 @@ Websites reviewed and used during the creation of this project.
   - Various research throughout.
 
 - [Bootstrap](https://getbootstrap.com/)
-  - Documentation on Navbar and Modals.
+  - Researching carousel functionality.
+
+- [Materialize](https://materializecss.com/)
+  - Documentation and code on Navbar and CSS colours.
 
 - [Balsamiq](https://balsamiq.com/)
   - Used for creating the wireframes.
 
 - [Techsini](https://techsini.com/multi-mockup/)
- - Used for Mock Up Images.
+  - Used for Mock Up Images.
 
 - [Pexels](https://www.pexels.com/)
- - Used for Hero Images.
+  - Used for Hero Images.
+
+
+<hr>
 
 
 ## Acknowledgements
