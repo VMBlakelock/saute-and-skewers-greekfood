@@ -10,7 +10,7 @@ Prime technologies to be used in the project are HTML/CSS/Javascript/Python/Flas
 
 ### Purpose
 
-Saute & Skewers is a website where users can view recipes in the database, however resgistered users can also manipulate thier own data using the create, read, update and delete - CRUD functionality.
+Saute & Skewers is a website where users can view recipes in the database, however registered users can also manipulate thier own data using the create, read, update and delete - CRUD functionality.
 
 It is hoped that all users to the site will find the website to be of interest and of use. With the added benefit of being part of a community.
 
@@ -73,7 +73,7 @@ As a potential user of this site, the user would:
  - Be encouraged to find out more about the brand and company by clicking links to social media pages.
  
 
-<img src="assets/images/destination-date-night-devices-mock-up.png">
+<img src="static/images/greek-restaurant.jpeg">
 
 ## 5 Planes
 
