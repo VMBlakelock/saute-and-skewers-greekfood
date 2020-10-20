@@ -4,15 +4,21 @@
 
 ### Aim
 
-To create ...................................................
+To create a functional website that allows users to manipulate data using the CRUD functionality.
 
-Technologies to be used in the project are HTML/CSS/..................
+Prime technologies to be used in the project are HTML/CSS/Javascript/Python/Flask and MongDB.
 
 ### Purpose
 
-The owner of Saute & Skewers wants to create ............. that allows users to manipulate data using CRUD functionality. 
+Saute & Skewers is a website where users can view recipes in the database, however resgistered users can also manipulate thier own data using the create, read, update and delete - CRUD functionality.
 
-It is hoped that the users will find the website to be ............... 
+It is hoped that all users to the site will find the website to be of interest and of use. With the added benefit of being part of a community.
+
+<hr>
+
+## Introduction
+
+
 
 ## UX
 
@@ -108,22 +114,27 @@ The site has X pages:
 
 Wireframes where created for all pages of the site.
 
-Desktop and Mobile wireframes were created to demonstrate xxxxxxxxx. 
+Desktop and Mobile wireframes were created to demonstrate the basic design and structure of the site
+and the required elements each page needed. 
 
 All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
 
-Click below to view:
+Desktop:
 
-Base Template
+[Base](wireframes/base-desktop.png)
+[Register](wireframes/register-desktop.png)
+[Login](wireframes/login-desktop.png)
+[Recipes](wireframes/recipes-desktop.png)
 
-Register 
+Mobile:
 
-Login
+[Base](wireframes/base-mobile.png)
+[Register](wireframes/register-mobile.png)
+[Login](wireframes/login-mobile.png)
+[Recipes](wireframes/recipes-mobile.png)
 
-Profile
 
-Add recipe
 
 
 
@@ -301,7 +312,10 @@ Web References
 Websites reviewed and used during the creation of this project.
 
 - [Markdownguide](https://www.markdownguide.org/basic-syntax/)
-  - Used this website to refresh knowledge on how to use Markdown.
+  - This website was used to refresh knowledge on how to use Markdown.
+
+- [codeacademy](https://www.codeacademy.com/articles/what-is-crud/)
+  - Article referring to what is CRUD and its uses.
 
 - [Google Fonts](https://www.fonts.google.com/basic-syntax/)
   - Used for choosing inital font for css @import
