@@ -5,11 +5,11 @@
 
 ## Introduction
 
-With visitors from all over the world Greece is notably a favourite to all tourists. One of Greece's highlights is by far it food.
+With visitors from all over the world Greece is notably a favourite destinination to all tourists. One of Greece's wellknown highlights is by far it's food.
 
-From street food, quality cuisine to Mama's homecooked treats, the Greek have a wide variety of superb delights to offer.
+From street food to quality cuisine and finally Mama's homecooked treats, the Greek have a wide variety of superb delights to offer.
 
-This site allows the owner/admin user to showcase their best loved recipes and hopes to gain traffic in the form of registered users to form a fantastic database of user favourites.
+This site allows the owner(admin) user to showcase their best loved recipes and hopes to gain traffic in the form of registered users to form a fantastic database of user favourites.
 
 
 <hr>
@@ -23,9 +23,9 @@ Prime technologies to be used in the project are HTML/CSS/Javascript/Python/Flas
 
 ### Purpose
 
-Saute & Skewers is a website where users can view recipes stored in the sites database, however registered users can also manipulate thier own data using the create, read, update and delete - CRUD functionality.
+Saute & Skewers is a Greek food website where users can view recipes stored in the sites database, however registered users can also manipulate their own data using the create, read, update and delete - CRUD functionality.
 
-It is hoped that all users to the site will find the website to be of interest and of use. Registered user have the added benefit of actively being part of a community.
+It is hoped that all users to the site will find the website to be of interest and of use. Registered users have the added benefit of actively being part of a community.
 
 
 <hr>
@@ -39,59 +39,49 @@ There are three types of users for this website, users stories for each are disc
 
 ### Guest User
 
-- As a guest user I want to ....
-- As a guest user I want to ....
-- As a guest user I want to ....
+As a guest user I want to:
+ - navigate around the site easily.
+ - find a navigation bar that links to other pages when clicked. 
+ - understand the sites purpose upon landing.
+ - be able to view various content on the site.
+ - be able to click social media icons to link out to other Saute & Skewer pages.
+ - have the option to register to the site to see more.
 
 ### Registered Account
 
-- As a registered user I want to ....
-- As a registered user I want to ....
-- As a registered user I want to ....
+As a registered user I want to:
+ - still be able to see the guest user content.
+ - log into the site easily.
+ - log out succesfully.
+ - have buttons to click to login, log out and submit data.
+ - be able to add my own recipes to the site.
+ - add recipes in an functional fashion.
+ - edit my recipes if a mistake is made.
+ - be able to delete my recipes should I wish.
 
 ### Admin User
 
-- As an admin user I want to ....
-- As an admin user I want to ....
-- As an admin user I want to ....
+As an admin user I want to:
+- have full access to the site to ensure all content is viable.
+- have access to be able to add more of my own recipes to the site.
+- edit any content posted by me or by users of the site.
+- have access to delete dormant or incomplete entries added to the site.
+
 
 ### Website Owner
 
 The website owner would like users of the website to:
+-  Interact with the site.
+-  Enjoy the site and use it as a useful tool to find Greek food recipes.
+-  Contribute to the site to create a vast selection of interesting data.
 
--  Interact with the site to ..............
-
--  Enjoy the site and use it as a useful tool to find ideas for..............
-
--  Contribute to the site to.........................
-
-
-The website owner would like the website design: 
-
-- To be xxxxxx looking with colors and a theme that portrays this.
-
-- To have a hero image that creates xxxxxxxxxxxxxxxxxx.
-
-- To have a navigation bar that links to xxxxxxxxxxxxxxxx when clicked.
-
-- To have buttons that when clicked ..............................
-
-- To have a footer containing social media icons that link to other sites.
-
-- To include company contact details.
-
-
- - Discover Saute & Skewers, ..............how it works and what its output is.
- - See a brand that draws users in and then after user interaction entices users to find out more.
- - Find its USP (unique selling point) is its uniqueness. During initial research the owner was unaware of a site like this. 
- - Understand what functionalities it offers.
- - Be encouraged to find out more about the brand and company by clicking links to social media pages.
- 
-
+The website owner would like the website design to: 
+- be clean and crisp looking with colors and a theme that portrays this.
+- have a carousel that creates an instant attraction to the site.
+- have whitespace to create flow.
+- have a footer containing social media icon links.
 
 <hr>
-
-
 
 
 <img src="static/images/greek-restaurant.jpeg">
@@ -101,41 +91,44 @@ The website owner would like the website design:
 
 ### Strategy
 
-- Saute & Skewers..... is currently a simple fun interactive website. It allows simple usage to provide a fun factor for idea gathering. It features the 3 core languages of web development HTML, CSS and Javascript and Google Maps JS API as a prime feature. 
+- Saute & Skewers is a functional website. It allows simple usage to provide a great way to add and share content. 
 
-- There is a clear brand and a company philosophy of "xxxxxxxxxxxxxxxxxx" whilst incorporating this the fun factor was required to be a major part of the content.
+- It features the 3 core languages of web development HTML, CSS and Javascript, as well as Python, Flask and connects to a MongoDB in order to do this. 
 
-- Saute & Skewers..... has the potential of not only being a xxxxxxxxxxxxxxxxxxxxxxxxxxx for current users, it potentially has the power to become a thriving business site. By adding a few addtional features to the site and marketing it well, Saute & Skewers could be something with a decent ROI.
+- There is a clear brand that draws users and entices interactions.
 
-- During research there where many other sites that had the same concept ..................................... 
+- Users who discover Saute & Skewers, easily grasps its concept - how it works and what it's output is.
+
+- Saute & Skewers has the potential of not only being a content sharing site, it could potentially become a business site. Adding a few addtional features and marketing the site, Saute & Skewers could generate revenues.
+
+- During research there where other sites found that had the same concept, although the Greek aspect was minimal. 
 
 
 ### Scope 
 
-- The site was developed with the intention of ................................ 
+- The site was developed with the intention of allowing users to build a database of their own recipes.
 
-- It was scoped to provide a .....................................
+- It was scoped to provide a registration page ...........................
 
 
 ### Structure
 
-- Saute & Skewers site structure was to hold pages that where relevant and required to enable users to ................... 
+- Saute & Skewers site structure was created from the UX user stories - therefore holding pages that where required to enable users to sign up and add data.
 
-The site has X pages:
-- the main Home page houses a Navbar, Hero Image and xxxx main sections and a footer. 
-- the Register page ..............
-- the Login page .................
-- the Recipes page .....................
+The site has 4 pages:
+- All pages are designed identically with 3 sectons - a Navbar, content area and a footer.
 
-- With a great brand design, traditional Greek color, images and text it is anticipated that the user would be ........................
+- the Home page houses a carousel of images and 'Welcome' text. 
+- the Recipes page shows recipe content and images for all users.
+- the Register page has an enticing message, registration form with a button and a link to login if already registered.
+- the Login page also holds 'Welcome back' text, a login form with a button and a link to register.
 
 
 ### Skeleton
 
 Wireframes where created for all pages of the site.
 
-Desktop and Mobile wireframes were created to demonstrate the basic design and structure of the site
-and the required elements each page needed. 
+Desktop and Mobile wireframes were created to demonstrate the basic design and structure of the site and the required elements each page needed. 
 
 All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
@@ -159,10 +152,12 @@ Mobile:
 
 ### Surface 
 
-Colors and fonts where important to the website to promote a xxxxx, tempting, feel good reaction.
-The site's "xxxxx" colors of blues and whites where chosen to enhance this feeling.
+With a great brand design, traditional Greek color, images and positive text it is anticipated that the user would feel positive and maybe daydream to another world.
 
-Users will see that Saute & Skewers..... is aiming for a luxurious look. The Hero image provides that instant attraction on site opening.
+Therefore colours and fonts where important to promote a traditional, tempting, feel good reaction.
+The site's "sea and sky" colors of blues and "authentic clean building" whites where chosen to enhance this feeling.
+
+Users will see that Saute & Skewers is aiming for a affluent look. The carousel images and the simplistic design provides that instant attraction on site opening.
 
 
 <hr>
@@ -171,30 +166,27 @@ Users will see that Saute & Skewers..... is aiming for a luxurious look. The Her
 
 ### Existing Features
 
-Multiple pages: The site uses multiple pages with a simple scroll movement to provide ease of use. 
+Multiple pages: The site has multiple responsive pages each with its own purpose and uses a simple scroll movement to provide easy navigation. 
 
-Navbar: A responsive navbar that links to both the various site pages dependant on the users status: ....... Logged in, Logged out.
+Navbar: A navbar that links to the site pages, this changes dependent on the users status: Logged in, Logged out.
 
-Dropdowns:
+Button: The buttons when clicked confirm user actions.
 
-Button: The buttons when clicked confirms user status.................
+Hyperlink: There is a hyperlink on the 'register page' and the 'login page' to revert user to an alternative area dependent on their action.
 
-Google Maps:  
-
-Hyperlink: There is a hyperlink at the bottom of the map to take people back to the site top................
-
-Social Media Links: Saute & Skewers has various Social Media accounts therefore icons for these are found in the footer, additional Saute & Skewers media can therefore be found with ease.
+Social Media Links: Saute & Skewers has various Social Media accounts therefore icons for these are found in the footer.
 
 
 ### Future Features
 
 Saute & Skewers - Future features could include:
 
-- Having a larger database library for each category library.
-- An image field where users can upload images of their presented foods.
-- Users owning a profile page.
+- Having a larger database library for guest users to view.
+- 
+- An image field where users can upload images of their own added Greek foods.
+- Users being able to create a profile page.
 - A badge or icon level that registered users of the site could achieve, when X number of entries have been added - i.e - Top Contributer.
-- A blog.
+- A blog that promotes more of Greece - locations, its culture aswell as it foods.
 - A messenger area where users can chat to each other live on the site.
 - An e commerce shop where users could order greek foods and merchandise.
 
@@ -206,6 +198,8 @@ Saute & Skewers - Future features could include:
 - HTML
 - CSS
 - Javascript
+- Python
+- JSON
 
 #### Frameworks
 - [JQuery](https://jquery.com/)
@@ -238,8 +232,12 @@ Saute & Skewers - Future features could include:
 
 ## Defensive Design
 
+*Defensive design is the practice of planning for contingencies in the design stage of a project or undertaking. Essentially, it is the practice of anticipating all possible ways that an end-user could misuse a device, and designing the device so as to make such misuse impossible, or to minimize the negative consequences.*
+[Wikipedia](https://en.wikipedia.org/wiki/Defensive_design/)
+
+......................
+
 ### Testing
-#### Features:
 
 Testing was undertaken during the creation of this site, manual testing included tests on various devices. W3C Markup Validator, validation check was ongoing throughout the project development.
 Pep8 compliance ......
@@ -259,10 +257,6 @@ Validation sites
   Here are the errors 
   - **
   
-### Defensive Design
-
-- 
-
 
 ### Browsers tested
 
@@ -322,7 +316,7 @@ If you want to run this project locally, we must clone the project for Github:
 4. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type 'git clone' and paste the URL you copied.
 
-- Example: git clone  = https://vmblakelock.github.io/destination-date-night/
+- Example: git clone  = https://vmblakelock.github.io/destination-date-night/  ,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 7. Press Enter. Your local clone is now created.
 
@@ -340,8 +334,7 @@ Tutor Support
 
 
 Web References
-- []()
-    - 
+- [Wikipedia]([Wikipedia](https://en.wikipedia.org/wiki/Defensive_design/))
 
 
 <hr>
