@@ -334,7 +334,7 @@ Tutor Support
 
 
 Web References
-- [Wikipedia]([Wikipedia](https://en.wikipedia.org/wiki/Defensive_design/))
+- [Wikipedia](https://en.wikipedia.org/wiki/Defensive_design/))
 
 
 <hr>
@@ -390,7 +390,7 @@ Slack and the wonderful community of students past and present for thier motivat
 
 My mentor Spencer Barriball for his profound knowledge and assistance in the development of the website.
 
-For additional support and guidance Tutot support guided me.
+For additional support and guidance Tutor support guided me.
 
 The developers own personal experiences during the creation and development of this project.
 
