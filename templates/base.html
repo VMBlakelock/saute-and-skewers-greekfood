@@ -15,6 +15,8 @@
 </head>
 <body>
 
+
+<header>
 <!-- navbar top -->
 <nav class="nav-extended text-shadow #2196f3 blue">
     <div class="nav-wrapper">
@@ -39,10 +41,26 @@
                     <li><a href="#">Log In</a></li>
 					<li><a href="#">Log Out</a></li>
   </ul>
- 
-    {% block content %}
-    {% endblock %}
+<header>
 
+
+  <section>
+        <!-- flash messages -->
+         {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="row flashes">
+                <h4 class="#2196f3 blue center-align">{{ message }}</h4>
+                </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </section>
+
+    <main class="container">
+        {% block content %}
+        {% endblock %}
+    </main>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
