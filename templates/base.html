@@ -64,11 +64,27 @@
         {% endblock %}
     </main>
 
+    <!-- footer section -->
+    <footer class="footer-background footer">
+        <div class="row">
+            <div class="container center-align">
+                <a href="https://www.facebook.com" target="_blank" class="icons text-shadow fab fa-facebook-square fa-3x"></a>
+			    <a href="https://www.instagram.com" target="_blank" class="icons text-shadow fab fa-instagram fa-3x"></a>
+			    <a href="https://www.twitter.com" target="_blank" class="icons text-shadow fab fa-twitter-square fa-3x"></a>
+            </div>
+        </div>  
+                <div class="container col s12 center-align">
+                    <p class="text-shadow" id="bold">&copy;2020 vixwebdesigns</p>
+                </div>
+    </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+
  {% block scripts %}
  {% endblock %}
     
