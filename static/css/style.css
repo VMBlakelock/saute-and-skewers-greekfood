@@ -12,6 +12,18 @@
     color:rgb(2, 32, 114);
 }
 
+/*-- logo text styling --*/
+
+.logo-text {
+    font-style: italic;
+}
+
+.food-type {
+     font-style: italic;
+     font-size: 25px;
+     color:rgb(2, 32, 114);
+}
+
 /*-- find_recipe p style --*/
 
 .bold {

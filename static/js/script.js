@@ -2,4 +2,5 @@
     $(".sidenav").sidenav({edge: "right"});
      $(".collapsible").collapsible();
      $("select").formSelect();
+      $('.carousel').carousel();
   });
