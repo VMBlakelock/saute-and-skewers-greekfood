@@ -7,8 +7,23 @@
                 <h3 class="titles-text center-align">
                     {{ username }}'s Profile
                 </h3>
+
+              <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-pencil-alt prefix"></i>
+                    <input id="recipe_name" name="recipe_name" minlength="5" maxlength="50" 
+                    type="text" class="validate" required>
+                    <label for="recipe_name">Recipe Name</label>
+                </div>   
+                <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-pencil-alt prefix"></i>
+                    <input id="recipe_method" name="recipe_method" minlength="5" maxlength="50" 
+                    type="text" class="validate" required>
+                    <label for="recipe_method">Recipe Method</label>
+                </div>
             </div>
         </div>
-    </div>
+    </div> 
 
 {% endblock %}

@@ -25,6 +25,12 @@ def get_recipes():
     return render_template("recipes.html", recipes=recipes)
 
 
+@app.route("/find_recipe")
+def find_recipe():
+    find_recipe = mongo.db.find_recipe.find().sort("recipe_name", 1)
+    return render_template("find_recipe.html", find_recipe=find_recipe)
+
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
