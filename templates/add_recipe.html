@@ -5,7 +5,7 @@
 
 <!-- card panel -->
  <div class="row card-panel grey lighten-5">
-        <form class="col s12" method="POST" action="">
+        <form class="col s12" method="POST" action="{{ url_for('add_recipe') }}">
 
         <!-- category selection dropdown -->
             <div class="row">
@@ -62,8 +62,17 @@
                             Favourite
                         </label>
 					</div>
+
+                    <!-- submit button -->
+            <div class="row">
+                <div class="col s12 center-align">
+                    <button type="submit" class="btn-large #2196f3 blue text-shadow">
+                        Add Recipe <i class="fas fa-plus-square right"></i>
+                    </button>
                 </div>
                 </div>
+            </div>
+            </div>
         </form>
     </div>
 
