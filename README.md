@@ -5,7 +5,7 @@
 
 ## Introduction
 
-With visitors from all over the world Greece is notably a favourite destinination to all tourists. One of Greece's wellknown highlights is by far it's food.
+With visitors from all over the world Greece is notably a favourite destination to all tourists. One of Greece's wellknown highlights is by far it's food.
 
 From street food to quality cuisine and finally Mama's homecooked treats, the Greek have a wide variety of superb delights to offer.
 
