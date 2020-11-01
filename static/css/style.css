@@ -1,5 +1,9 @@
 /*-- main styles --*/
 
+.html, body{
+    font-family: Arial, Helvetica, Sans-serif;
+}
+
 .text-shadow {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -19,12 +23,25 @@
 }
 
 .food-type {
-     font-style: italic;
-     font-size: 25px;
-     color:rgb(2, 32, 114);
+    font-style: italic;
+    font-size: 25px;
+    color:rgb(2, 32, 114);
 }
 
-/*-- find_recipe p style --*/
+/*-- recipes.html text styles --*/
+
+.titles-style {
+   font-weight: bold; 
+}
+
+
+.p-text {
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(2, 32, 114); 
+}
+
+/*-- find_recipe.html p style --*/
 
 .bold {
     font-weight: bold;
