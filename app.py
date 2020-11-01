@@ -19,6 +19,11 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
+@app.route("/index")
+def index():
+    return render_template("index.html")
+
+
 @app.route("/get_recipes")
 def get_recipes():
     recipes = mongo.db.recipes.find()
@@ -115,7 +120,7 @@ def add_recipe():
             "recipe_method": request.form.get("recipe_method"),
             "created_by": session["user"]
         }
-        mongo.db.tasks.insert_one(recipe)
+        mongo.db.recipes.insert_one(recipe)
         flash("Recipe Successfully Added")
         return redirect(url_for("get_recipes"))
 

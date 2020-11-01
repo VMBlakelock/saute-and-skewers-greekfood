@@ -316,8 +316,7 @@ If you want to run this project locally, we must clone the project for Github:
 4. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type 'git clone' and paste the URL you copied.
 
-- Example: git clone  = https://vmblakelock.github.io/destination-date-night/  ,,,,,,,,,,,,,,,,,,,,,,,,,,
-
+- Example: git clone  = https://vmblakelock.github.io/saute-and-skewers-greekfood/
 7. Press Enter. Your local clone is now created.
 
 
