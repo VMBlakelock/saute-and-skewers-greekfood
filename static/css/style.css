@@ -51,20 +51,16 @@
 /*-- footer --*/
 
 .footer-background {
-    background-color:rgb(33, 150, 243);   
+    background-color:rgb(2, 32, 114);  
 }
 
 .icons {
-    color:rgb(2, 32, 114);
+    color: white;
     margin-top: 20px;
 }
 
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
    width: 100%;
-   text-align: center;
 }
 
 /*-- copyright icon --*/
