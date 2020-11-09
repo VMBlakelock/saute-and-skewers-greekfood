@@ -1,103 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
- {% block styles %}
- {% endblock %}
-    
-    <title>Saute & Skewers</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+		type="text/css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+	{% block styles %}
+	{% endblock %}
+
+	<title>Saute & Skewers</title>
 </head>
+
 <body>
 
 
-<header>
-<!-- navbar top -->
-<nav class="nav-extended text-shadow #2196f3 blue">
-    <div class="nav-wrapper">
-      <a href="{{ url_for('index') }}" class="brand-logo logo-text">Saute & Skewers | <span class="food-type">Greek Food</span></a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
-      <ul class="right hide-on-med-and-down">
-                    <li><a href="{{ url_for('index') }}">Home</a></li>
+	<header>
+		<!-- navbar top -->
+		<nav class="nav-extended text-shadow #2196f3 blue">
+			<div class="nav-wrapper">
+				<a href="{{ url_for('index') }}" class="brand-logo logo-text">Saute & Skewers |
+					<span class="food-type">Greek Food</span></a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="{{ url_for('index') }}">Home</a></li>
+					<li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
+					{% if session.user %}
+					<li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
                     <li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
-            {% if session.user %}
-                    <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-                    <li><a href="{{ url_for('add_recipe') }}">Add Recipe</a></li>
+					<li><a href="{{ url_for('add_recipe') }}">Add Recipe</a></li>
 					<li><a href="{{ url_for('logout') }}">Log Out</a></li>
-            {% else %}
-                    <li><a href="{{ url_for('login') }}">Log In</a></li>
-                    <li><a href="{{ url_for('register') }}">Register</a></li>
-            {% endif %}        
-      </ul>
-    </div>
-  </nav>
+					{% else %}
+					<li><a href="{{ url_for('login') }}">Log In</a></li>
+					<li><a href="{{ url_for('register') }}">Register</a></li>
+					{% endif %}
+				</ul>
+			</div>
+		</nav>
 
-<!-- side nav -->
-  <ul class="sidenav" id="mobile-demo">
-  <li><h4 class="center-align white-text #2196f3 blue">Saute & Skewers|Greek Food</h4></li>
-                    <li><a href="{{ url_for('index') }}">Home</a></li>
-                    <li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
-            {% if session.user %}
-                    <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-                    <li><a href="{{ url_for('add_recipe') }}">Add Recipe</a></li>
-					<li><a href="{{ url_for('logout') }}">Log Out</a></li>
-            {% else %}
-                    <li><a href="{{ url_for('login') }}">Log In</a></li>
-                    <li><a href="{{ url_for('register') }}">Register</a></li>
-            {% endif %}        
-  </ul>
-</header>
-
-
-  <section>
-        <!-- flash messages -->
-         {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                {% for message in messages %}
-                    <div class="row flashes">
-                <h4 class="center-align titles-text">{{ message }}</h4>
-                </div>
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
-    </section>
-
-    <!-- main content - see recipes.html -->
-    <main class="container">
-        {% block content %}
-        {% endblock %}
-    </main>
-
-    <!-- footer -->
-    <footer class="footer-background footer">
-        <div class="row">
-            <div class="container center-align">
-                <a href="https://www.facebook.com" target="_blank" class="icons text-shadow fab fa-facebook-square fa-3x"></a>
-			    <a href="https://www.instagram.com" target="_blank" class="icons text-shadow fab fa-instagram fa-3x"></a>
-			    <a href="https://www.twitter.com" target="_blank" class="icons text-shadow fab fa-twitter-square fa-3x"></a>
-            </div>
-        </div> 
-
-        <!-- copyright --> 
-                <div class="container center-align">
-                    <p class="text-shadow" id="bold">&copy;2020 vixwebdesigns</p>
-                </div>
-    </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+		<!-- side nav -->
+		<ul class="sidenav" id="mobile-demo">
+			<li>
+				<h4 class="center-align white-text #2196f3 blue">Saute & Skewers|Greek Food</h4>
+			</li>
+			<li><a href="{{ url_for('index') }}">Home</a></li>
+			<li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
+			{% if session.user %}
+			<li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+			<li><a href="{{ url_for('add_recipe') }}">Add Recipe</a></li>
+			<li><a href="{{ url_for('logout') }}">Log Out</a></li>
+			{% else %}
+			<li><a href="{{ url_for('login') }}">Log In</a></li>
+			<li><a href="{{ url_for('register') }}">Register</a></li>
+			{% endif %}
+		</ul>
+	</header>
 
 
+	<section>
+		<!-- flash messages -->
+		{% with messages = get_flashed_messages() %}
+		{% if messages %}
+		{% for message in messages %}
+		<div class="row flashes">
+			<h4 class="center-align titles-text">{{ message }}</h4>
+		</div>
+		{% endfor %}
+		{% endif %}
+		{% endwith %}
+	</section>
 
- {% block scripts %}
- {% endblock %}
-    
-    </body>
+	<!-- main content - see recipes.html -->
+	<main class="container">
+		{% block content %}
+		{% endblock %}
+	</main>
+
+	<!-- footer -->
+	<footer class="footer-background footer">
+		<div class="row">
+			<div class="container center-align">
+				<a href="https://www.facebook.com" target="_blank"
+					class="icons text-shadow fab fa-facebook-square fa-3x"></a>
+				<a href="https://www.instagram.com" target="_blank"
+					class="icons text-shadow fab fa-instagram fa-3x"></a>
+				<a href="https://www.twitter.com" target="_blank"
+					class="icons text-shadow fab fa-twitter-square fa-3x"></a>
+			</div>
+		</div>
+
+		<!-- copyright -->
+		<div class="container center-align">
+			<p class="text-shadow" id="bold">&copy;2020 vixwebdesigns</p>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+
+	{% block scripts %}
+	{% endblock %}
+
+</body>
+
 </html>

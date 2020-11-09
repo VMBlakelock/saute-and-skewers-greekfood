@@ -1,47 +1,47 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <!-- profile page text -->
+<!-- profile page text -->
 
-     <h4 class="titles-text titles-style text-shadow center-align">
-                    {{ username }}'s Profile
-                </h4>
+<h4 class="titles-text titles-style text-shadow center-align">
+	{{ username }}'s Profile
+</h4>
 
-    <div class="row">
-        <div class="col s12 m8 offset-m2">
-            <div class="card-panel">
+<div class="row">
+	<div class="col s12 m8 offset-m2">
+		<div class="card-panel">
 
-            <!-- user profile text -->
-              <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-user-circle prefix"></i>
-                    <input id="about_me" name="about_me" minlength="5" maxlength="50" 
+			<!-- user profile text -->
+			<div class="row">
+				<div class="input-field col s12">
+					<i class="fas fa-user-circle prefix"></i>
+					<input id="about_me" name="about_me" minlength="5" maxlength="50"
                     type="text" class="validate" required>
-                    <label for="about_me">About me</label>
-                </div> 
+					<label for="about_me">About me</label>
+				</div>
 
-            <!-- user recipes -->  
-              <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-list-ul prefix"></i>
-                    <input id="my_recipes" name="my_recipes" minlength="5" maxlength="50" 
+				<!-- user recipes -->
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="fas fa-list-ul prefix"></i>
+						<input id="my_recipes" name="my_recipes" minlength="5" maxlength="50"
                     type="text" class="validate" required>
-                    <label for="my_recipes">My recipes</label>
-                </div>
+						<label for="my_recipes">My recipes</label>
+					</div>
 
-            <!-- user favourites -->  
-              <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-star prefix"></i>
-                    <input id="my_favourites" name="my_favourites" minlength="5" maxlength="50" 
+					<!-- user favourites -->
+					<div class="row">
+						<div class="input-field col s12">
+							<i class="fas fa-star prefix"></i>
+							<input id="my_favourites" name="my_favourites" minlength="5" maxlength="50"
                     type="text" class="validate" required>
-                    <label for="my_favourites">My favourites</label>
-                </div>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-    </div> 
+							<label for="my_favourites">My favourites</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 {% endblock %}
