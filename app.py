@@ -30,6 +30,11 @@ def get_recipes():
     return render_template("recipes.html", recipes=recipes)
 
 
+@app.route("/highlight_recipes")
+def highlight_recipes():
+    return render_template("highlights.html")
+
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
