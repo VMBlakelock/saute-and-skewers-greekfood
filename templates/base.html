@@ -46,7 +46,7 @@
 		<!-- side nav -->
 		<ul class="sidenav" id="mobile-demo">
 			<li>
-				<h4 class="center-align white-text #2196f3 blue">Saute & Skewers|Greek Food</h4>
+				<a href="{{ url_for('index') }}" class="brand-logo logo-text">Saute & Skewers</a>
 			</li>
 			<li><a href="{{ url_for('index') }}">Home</a></li>
             <li><a href="{{ url_for('highlight_recipes') }}">Highlights</a></li>
@@ -76,7 +76,7 @@
 		{% endwith %}
 	</section>
 
-	<!-- main content - see recipes.html -->
+	<!-- main content -->
 	<main class="container">
 		{% block content %}
 		{% endblock %}
@@ -84,8 +84,8 @@
 
 	<!-- footer -->
 	<footer class="footer-background footer">
-		<div class="row">
 			<div class="container center-align">
+                    <div class="row">
 				<a href="https://www.facebook.com" target="_blank"
 					class="icons text-shadow fab fa-facebook-square fa-3x"></a>
 				<a href="https://www.instagram.com" target="_blank"

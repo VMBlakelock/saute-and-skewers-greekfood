@@ -1,16 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h4 class="titles-text titles-style text-shadow center-align">Your Recipes</h4>
+<h4 class="titles-text titles-style text-shadow center-align">Take a look at your recipes</h4>
 
 {% for recipe in recipes %}
 <hr>
+
+<p class="p-text">HOW CAN I STYLE THIS TEXT</p>
 
 {{ recipe.category_name }}<br>
 {{ recipe.recipe_name }}<br>
 {{ recipe.recipe_ingredients }}<br>
 {{ recipe.recipe_method }}<br>
 {{ recipe.created_by }}<br>
+
 
 {% endfor %}
 

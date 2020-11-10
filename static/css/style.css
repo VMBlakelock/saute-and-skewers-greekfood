@@ -20,6 +20,7 @@
 
 .logo-text {
     font-style: italic;
+    margin-left: 15px;
 }
 
 .food-type {
@@ -28,11 +29,13 @@
     color:rgb(2, 32, 114);
 }
 
-/*-- recipes.html text styles --*/
+/*-- title_style --*/
 
 .titles-style {
    font-weight: bold; 
 }
+
+/*-- paragraph_text --*/
 
 .p-text {
     font-style: italic;
@@ -42,8 +45,29 @@
 
 /*-- profile.html --*/
 
-.profile-text {
+#profile-text {
     font-weight: bold;
+    margin-top: 30px;
+}
+
+.profile-text-size {
+    font-style: italic;
+    font-size: 22px;
+    color:rgb(2, 32, 114); 
+}
+
+.profile {
+    font-style: italic;
+    font-size: 17px;
+    color:rgb(2, 32, 114); 
+}
+
+.margin {
+    margin-top: 25px;
+}
+
+.hyperlink{
+    margin-top: 30px;
 }
 
 /*-- footer --*/
