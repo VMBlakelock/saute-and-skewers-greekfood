@@ -49,9 +49,10 @@
 				<h4 class="center-align white-text #2196f3 blue">Saute & Skewers|Greek Food</h4>
 			</li>
 			<li><a href="{{ url_for('index') }}">Home</a></li>
-			<li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
+            <li><a href="{{ url_for('highlight_recipes') }}">Highlights</a></li>
 			{% if session.user %}
 			<li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+            <li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
 			<li><a href="{{ url_for('add_recipe') }}">Add Recipe</a></li>
 			<li><a href="{{ url_for('logout') }}">Log Out</a></li>
 			{% else %}

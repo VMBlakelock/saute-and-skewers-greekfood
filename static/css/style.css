@@ -34,18 +34,16 @@
    font-weight: bold; 
 }
 
-
 .p-text {
     font-style: italic;
     font-size: 17px;
     color:rgb(2, 32, 114); 
 }
 
-/*-- find_recipe.html p style --*/
+/*-- profile.html --*/
 
-.bold {
+.profile-text {
     font-weight: bold;
-    color: black;
 }
 
 /*-- footer --*/
