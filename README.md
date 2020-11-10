@@ -5,7 +5,7 @@
 
 ## Introduction
 
-With visitors from all over the world Greece is notably a favourite destination to all tourists. One of Greece's wellknown highlights is by far it's food.
+With visitors from all over the world Greece is notably a favourite destination to all tourists. One of Greece's well known highlights is by far it's food.
 
 From street food to quality cuisine and finally Mama's homecooked treats, the Greek have a wide variety of superb delights to offer.
 
@@ -19,7 +19,7 @@ This site allows the owner(admin) user to showcase their best loved recipes and 
 
 To create a functional website that allows users to manipulate data using the CRUD functionality.
 
-Prime technologies to be used in the project are HTML/CSS/Javascript/Python/Flask and MongDB.
+Prime technologies to be used in the project are HTML/CSS/Javascript/Python/Flask and MongoDB.
 
 ### Purpose
 
@@ -52,7 +52,7 @@ As a guest user I want to:
 As a registered user I want to:
  - still be able to see the guest user content.
  - log into the site easily.
- - log out succesfully.
+ - log out successfully.
  - have buttons to click to login, log out and submit data.
  - be able to add my own recipes to the site.
  - add recipes in an functional fashion.
@@ -247,9 +247,24 @@ Below highlights the main issues and bugs found during the development.
 
 #### Issue 1
 
-#### 
+Initial routing wasnt correct, data was coming through to recipes.html as id forgotton the index.html
 
-#### Issue 9
+#### Issue 2
+
+
+
+#### Issue 3
+
+Needed more pages adding to site to allow for guest user and session user interaction
+
+#### Issue 4
+
+Materialize Carousel wasnt loading well
+
+#### Issue 5
+
+#### Issue 6
+
 
 Validation sites
 - When validating the code for HTML and CSS errors where found and rectified. Mostly simple errors and typos.
@@ -283,10 +298,11 @@ Laptop:
 ## Evaluation
 
 - Overall the design and development of this site is ................. It has all the basic requirements of a functional website and meets the project criteria.
+- Most of the user stories where met, with the exception of .... editing user content.. probabably better to just delete or block user..............
 - Many future features could be added to provide more interactive activity, functionality and imagery.
-- Branch testing ............................
-- Manual Testing was undertaken ..........................
-- 
+- Branch testing - No branch testing was undertaken....
+- Manual Testing was undertaken .....Werkzeug ..........................more testing was required..
+- Design changes .... no image carousel, Materialize version wasnt loading well
 
 <hr>
 
@@ -368,7 +384,7 @@ Websites reviewed and used during the creation of this project.
   - Researching carousel functionality.
 
 - [Materialize](https://materializecss.com/)
-  - Documentation and code on Navbar and CSS colours.
+  - Documentation and code on Navbar, CSS colours and carousel.
 
 - [Balsamiq](https://balsamiq.com/)
   - Used for creating the wireframes.
@@ -377,7 +393,7 @@ Websites reviewed and used during the creation of this project.
   - Used for Mock Up Images.
 
 - [Pexels](https://www.pexels.com/)
-  - Used for Hero Images.
+  - Used for site Images.
 
 
 <hr>
