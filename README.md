@@ -2,6 +2,30 @@
 
 # Saute & Skewers | Greek Food 
 
+*Share favourite Greek recipes with the community*
+
+*Deployed to [Heroku](https://https://dashboard.heroku.com/) and stored in [Github](https://github.com/)*
+
+<hr>
+
+## Contents
+
+- [Introduction](#introduction)
+- [Aim](#aim)
+- [Purpose](#purpose)
+- [UX](#ux)
+- [The 5 Planes of content strategy](#the_5_planes_of_content_strategy)
+- [Features](#features)
+- [Technologies and Frameworks](#technologies_and_frameworks)
+- [Defensive Design](#defensive_design)
+- [Testing](#testing)
+- [Evaluation](#evaluation)
+- [Deployment](#deployment)
+- [Credits and References](#credits_and_references)
+- [Websites Reviewed](#websites_reviewed)
+- [Acknowledgements](#acknowledgements)
+
+<hr>
 
 ## Introduction
 
@@ -76,13 +100,12 @@ The website owner would like users of the website to:
 -  Contribute to the site to create a vast selection of interesting data.
 
 The website owner would like the website design to: 
-- be clean and crisp looking with colors and a theme that portrays this.
-- have a carousel that creates an instant attraction to the site.
+- be clean and crisp looking with colors and a theme that portrays Greek Culture.
+- have Greek images that creates an instant attraction to the site.
 - have whitespace to create flow.
 - have a footer containing social media icon links.
 
 <hr>
-
 
 <img src="static/images/greek-restaurant.jpeg">
 
@@ -93,13 +116,13 @@ The website owner would like the website design to:
 
 - Saute & Skewers is a functional website. It allows simple usage to provide a great way to add and share content. 
 
-- It features the 3 core languages of web development HTML, CSS and Javascript, as well as Python, Flask and connects to a MongoDB in order to do this. 
+- It features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and Flask. It is deployed to a MongoDB database. 
 
 - There is a clear brand that draws users and entices interactions.
 
-- Users who discover Saute & Skewers, easily grasps its concept - how it works and what it's output is.
+- Users who discover Saute & Skewers, easily grasps it's concept - how it works and what it's output is.
 
-- Saute & Skewers has the potential of not only being a content sharing site, it could potentially become a business site. Adding a few addtional features and marketing the site, Saute & Skewers could generate revenues.
+- Saute & Skewers has the potential of not only being a content sharing site, it could potentially become a business site. Adding a few addtional features and marketing the site well could mean Saute & Skewers could generate revenues.
 
 - During research there where other sites found that had the same concept, although the Greek aspect was minimal. 
 
@@ -108,34 +131,46 @@ The website owner would like the website design to:
 
 - The site was developed with the intention of allowing users to build a database of their own recipes.
 
-- It was scoped to provide a registration page ...........................
+- The database of choice to build with was NoSQL - MongoDB.
+
+- It was scoped to provide ease of use.
+
+- Have the CRUD functonality.
+
+- House a home page, registration page, log in page, log out page.
+
+- Be responsive on all devices.
+
+- Be visually appealing that incorporated Greek culture in the front-end design.
 
 
 ### Structure
 
-- Saute & Skewers site structure was created from the UX user stories - therefore holding pages that where required to enable users to sign up and add data.
+- Saute & Skewers site structure was created from the UX user stories - therefore developed with pages that where required to enable users to sign up and add data.
 
-The site has 4 pages:
-- All pages are designed identically with 3 sectons - a Navbar, content area and a footer.
+- All pages are designed identically with 3 sections - a Navbar, content area and a footer.
 
-- the Home page houses a carousel of images and 'Welcome' text. 
-- the Recipes page shows recipe content and images for all users.
-- the Register page has an enticing message, registration form with a button and a link to login if already registered.
-- the Login page also holds 'Welcome back' text, a login form with a button and a link to register.
-
+- The Home page has a main image and 'Welcome' text. 
+- The Highlights page shows a selection of recipe content and images for all users to view.
+- The Register page has a basic registration form with a button and a link to login if already registered.
+- The Login page has a basic login form with a button and a link to register if not already a member. 
+- Once logged in the Login page becomes a Profile page, this shows a 'Welcome back' text, a few enticing words and a link to the 'Add Recipe' Page
+- The Add Recipe page is where users add their own recipes once they submit the recipe it takes them to the Recipes page.
+- The Recipes page is the home of user recipes already added. This is data stored in the database.
+- Finally the Log out page displays, a 'You have been logged out message' and the same Log in view.
 
 ### Skeleton
 
-Wireframes where created for all pages of the site.
+Wireframes where created with only the main pages of the site in mind. Therefore only four where initially created.
 
-Desktop and Mobile wireframes were created to demonstrate the basic design and structure of the site and the required elements each page needed. 
+These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
 
 All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
 
 Desktop:
 
-[Base](wireframes/base-desktop.png)
+[Home](wireframes/base-desktop.png)
 [Register](wireframes/register-desktop.png)
 [Login](wireframes/login-desktop.png)
 [Recipes](wireframes/recipes-desktop.png)
@@ -143,7 +178,7 @@ Desktop:
 
 Mobile:
 
-[Base](wireframes/base-mobile.png)
+[Home](wireframes/base-mobile.png)
 [Register](wireframes/register-mobile.png)
 [Login](wireframes/login-mobile.png)
 [Recipes](wireframes/recipes-mobile.png)
@@ -152,12 +187,16 @@ Mobile:
 
 ### Surface 
 
-With a great brand design, traditional Greek color, images and positive text it is anticipated that the user would feel positive and maybe daydream to another world.
+Front-end visuals where based on:
+ - A great brand design.
+ - Traditional Greek colours.
+ - Powerful images.
+ - Enlighting text in which it is anticipated that the user would feel positive and maybe daydream to another world.
 
-Therefore colours and fonts where important to promote a traditional, tempting, feel good reaction.
-The site's "sea and sky" colors of blues and "authentic clean building" whites where chosen to enhance this feeling.
+Colours and fonts therefore where important to promote traditional greek culture, with a tempting, feel good reaction.
+With the Greek flag and its symbolic colours of blue and white, the sites aim was to incorporate this into its design. 
 
-Users will see that Saute & Skewers is aiming for a affluent look. The carousel images and the simplistic design provides that instant attraction on site opening.
+Users will see that Saute & Skewers chose a simplistic design with ample whitespace to provide an instant attraction on site opening.
 
 
 <hr>
@@ -259,7 +298,7 @@ Needed more pages adding to site to allow for guest user and session user intera
 
 #### Issue 4
 
-Materialize Carousel wasnt loading well
+Materialize Carousel wasnt loading wellm the links kept breaking
 
 #### Issue 5
 
@@ -302,7 +341,9 @@ Laptop:
 - Many future features could be added to provide more interactive activity, functionality and imagery.
 - Branch testing - No branch testing was undertaken....
 - Manual Testing was undertaken .....Werkzeug ..........................more testing was required..
-- Design changes .... no image carousel, Materialize version wasnt loading well
+- Some front-end design changes where made during the build due to varying factors:
+    - Materialize image carousel, looked good but didnt load well. Also the developer found it difficult to change the prebuilt images and the links kept breaking.
+    - The site was to have 4 pages initally but it was discovered early in development that more pages would be required.
 
 <hr>
 
@@ -349,8 +390,8 @@ Tutor Support
 
 
 Web References
-- [Wikipedia](https://en.wikipedia.org/wiki/Defensive_design/))
-
+- [Wikipedia](https://en.wikipedia.org/wiki/Defensive_design/)
+    - Used to determine the exact meaning of defensive design.
 
 <hr>
 
@@ -359,42 +400,47 @@ Web References
 
 Websites reviewed and used during the creation of this project.
 
+- [Balsamiq](https://balsamiq.com/)
+  - Used for creating the wireframe mocks.
+  
+- [Bootstrap](https://getbootstrap.com/)
+  - Researching carousel functionality, although wasnt used in the project.
+
+- [Codeacademy](https://www.codeacademy.com/articles/what-is-crud/)
+  - Article referring to "what is CRUD and its uses".
+
+- [Google Fonts](https://www.fonts.google.com/basic-syntax/)
+  - Used for choosing inital font.
+
+- [Jshint](https://jshint.com/)
+  - Validation testing of Javascript.
+
 - [Markdownguide](https://www.markdownguide.org/basic-syntax/)
   - This website was used to refresh knowledge on how to use Markdown.
 
-- [Codeacademy](https://www.codeacademy.com/articles/what-is-crud/)
-  - Article referring to what is CRUD and its uses.
+- [Materialize](https://materializecss.com/)
+  - Documentation and code on Navbar, CSS colours and buttons.
 
-- [Google Fonts](https://www.fonts.google.com/basic-syntax/)
-  - Used for choosing inital font for css @import
+- [Pexels](https://www.pexels.com/)
+  - Used for site Images.
+
+- [RandomKeygen](https://www.randomKeygen.com/)
+  - Site to select a secure SECRET_KEY password.
+
+- [StackOverflow](https://stackoverflow.com/)
+  - Various research throughout.
+
+- [Techsini](https://techsini.com/multi-mockup/)
+  - Used for Mock Up Images.
+
+- [Tech with Tim](https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX)
+    - A series of You Tube tutorial videos to gain greater understanding of Flask.
 
 - [W3Schools](https://www.w3schools.com/basic-syntax/)
   - Reviewed and used frequently throughout the design of this project.
 
 - [W3C Markup Validation](https://validator.w3.org/)
   - Validation testing of HTML and CSS.
-
-- [Jshint](https://jshint.com/)
-  - Validation testing of Javascript.
-  
-- [StackOverflow](https://stackoverflow.com/)
-  - Various research throughout.
-
-- [Bootstrap](https://getbootstrap.com/)
-  - Researching carousel functionality.
-
-- [Materialize](https://materializecss.com/)
-  - Documentation and code on Navbar, CSS colours and carousel.
-
-- [Balsamiq](https://balsamiq.com/)
-  - Used for creating the wireframes.
-
-- [Techsini](https://techsini.com/multi-mockup/)
-  - Used for Mock Up Images.
-
-- [Pexels](https://www.pexels.com/)
-  - Used for site Images.
-
 
 <hr>
 
@@ -405,7 +451,7 @@ Slack and the wonderful community of students past and present for thier motivat
 
 My mentor Spencer Barriball for his profound knowledge and assistance in the development of the website.
 
-For additional support and guidance Tutor support guided me.
+For additional support and guidance Tutor Support guided me.
 
 The developers own personal experiences during the creation and development of this project.
 
