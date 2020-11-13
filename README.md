@@ -107,7 +107,7 @@ The website owner would like the website design to:
 
 <hr>
 
-<img src="static/images/greek-restaurant.jpeg">
+<img src="static/pexels-greek-flag.jpeg">
 
 
 ## The 5 Planes of content strategy
