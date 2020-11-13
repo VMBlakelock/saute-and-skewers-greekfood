@@ -107,9 +107,8 @@ The website owner would like the website design to:
 
 <hr>
 
-<div class="center-align">
+
 <img src="static/images/pexels-greek-flag.jpeg">
-</div>
 
 
 ## The 5 Planes of content strategy
@@ -207,13 +206,26 @@ Users will see that Saute & Skewers chose a simplistic design with ample whitesp
 
 ### Existing Features
 
-Multiple pages: The site has multiple responsive pages each with its own purpose and uses a simple scroll movement to provide easy navigation. 
+Multiple pages: The site has multiple responsive pages, using the mobile first approach. 
 
-Navbar: A navbar that links to the site pages, this changes dependent on the users status: Logged in, Logged out.
+User friendly: Each page has its own purpose and uses a simple mouse movement on desktop and scroll movement on mobiles/tablets to provide easy navigation. 
 
-Button: The buttons when clicked confirm user actions.
+Fonts and Colours: Simplistic design incorporating only minimal colour and text.
 
-Hyperlink: There is a hyperlink on the 'register page' and the 'login page' to revert user to an alternative area dependent on their action.
+Navbar: A Materialize fixed Navbar at the top on desktop and a side navbar on mobiles and tablets. The navbar links to the site pages, this changes dependent on the users status: Logged in, Logged out.
+
+Button: Chosen from Materialize the buttons when clicked confirm user actions. Buttons are big and provide instruction. 
+
+Forms: Code from Materialize. The Register, Log in, Add recipe pages all have forms to complete. The forms are self explanatory.
+
+Icons: Font Awesome icons are used on the form fields to provide instructions aswell as for design. 
+
+Images: Bold and relevant images where used in the design. Selected images provide a luxury feel.
+
+Hyperlink: There is a hyperlink on the 'register page', 'login page' and 'profile page' to revert user to an alternative area dependent on their next wanted action.
+
+Flash Messages: Flash messages provide feedback to users. User that have an unsuccessful login will recieve "username or password incorrect".
+The 'Registered users' will see, "Welcome USERNAME" on login and "You have successfully logged out" on log out.
 
 Social Media Links: Saute & Skewers has various Social Media accounts therefore icons for these are found in the footer.
 
@@ -222,13 +234,15 @@ Social Media Links: Saute & Skewers has various Social Media accounts therefore 
 
 Saute & Skewers - Future features could include:
 
-- Having a larger database library for guest users to view.
-- 
-- An image field where users can upload images of their own added Greek foods.
-- Users being able to create a profile page.
+- Having a larger database of greek recipes for guest users to view.
+- An image field on Add recipe page where users can upload images of their own Greek foods to their recipes.
+- User profile to be extended to allow users to upload images and information about them that other registered users can see.
 - A badge or icon level that registered users of the site could achieve, when X number of entries have been added - i.e - Top Contributer.
+- A review score or like element that the community of users can click on, if they like or have tried a recipe posted by others.
+- Response section to provide users with feedback on added recipes.
+- Forgotton password feature, so passwords can be reset.
 - A blog that promotes more of Greece - locations, its culture aswell as it foods.
-- A messenger area where users can chat to each other live on the site.
+- A messenger area where registered users can chat to each other live on the site.
 - An e commerce shop where users could order greek foods and merchandise.
 
 <hr>
