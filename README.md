@@ -107,7 +107,9 @@ The website owner would like the website design to:
 
 <hr>
 
+<div class="center-align">
 <img src="static/images/pexels-greek-flag.jpeg">
+</div>
 
 
 ## The 5 Planes of content strategy
