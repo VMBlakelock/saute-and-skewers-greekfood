@@ -237,6 +237,8 @@ Saute & Skewers - Future features could include:
 - Having a larger database of greek recipes for guest users to view.
 - An image field on Add recipe page where users can upload images of their own Greek foods to their recipes.
 - User profile to be extended to allow users to upload images and information about them that other registered users can see.
+- Have a logo, incorporate the Saute & Skewers text into something more memorable.
+- Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
 - A badge or icon level that registered users of the site could achieve, when X number of entries have been added - i.e - Top Contributer.
 - A review score or like element that the community of users can click on, if they like or have tried a recipe posted by others.
 - Response section to provide users with feedback on added recipes.
@@ -249,6 +251,7 @@ Saute & Skewers - Future features could include:
 
 ## Technologies and Frameworks 
 
+
 #### Technologies
 - HTML
 - CSS
@@ -257,9 +260,10 @@ Saute & Skewers - Future features could include:
 - JSON
 
 #### Frameworks
-- [JQuery](https://jquery.com/)
-- [Flask](https://www.fullstackpython.com/flask.html)
+- [Flask](https://palletsprojects.com/p/flask/)
+    - [Werkzeug](https://palletsprojects.com/p/werkzeug/)
 - [Materialize](https://materializecss.com/)
+- [JQuery](https://jquery.com/)
 
 #### Database
 - [MongoDB](https://www.mongodb.com/cloud/atlas/)
@@ -276,6 +280,9 @@ Saute & Skewers - Future features could include:
 
 #### Developer Tools
 - Google Dev Tools
+
+#### Font Awesome
+- [Font Awesome](https://fontawesome.com/)
 
 #### Validation sites
 - [W3C Markup Validation](https://validator.w3.org/)
