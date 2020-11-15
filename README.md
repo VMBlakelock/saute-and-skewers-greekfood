@@ -375,6 +375,44 @@ Laptop:
 
 #### Heroku:
 
+The project is deployed to Heroku. It uses the automatic deployment method via Github, using your Github repository.
+Below shows the steps to deploy on Heroku:
+
+1. Heroku requires certain dependencies and applications to run our application. There we need to tell it whats required. 
+   In the terminal type 
+   - $ pip3 freeze --local > requirements.txt
+   - $ echo web: python app.py > Procfile
+2. Register on the Heroku website - [Heroku](https://www.heroku.com/) or Log in for existing users.
+3. From the dashboard click 'New' and 'Create new app'.
+4. Enter your unique 'App name' (Heroku practice is for it to be lowercase and to use hyphen (-) instead of spaces).
+5. Select your region, then click 'Create App'.
+6. Create app directs to Heroku's 'Deploy' tab, select the deployment method of 'GitHub'.
+7. Your Github profile should be displayed, enter your repository name here and click 'Search'. (Idealy your Heroku app name and your repository name should be the same).
+8. Your repository should display here and a 'Connect' button appears to connect to your app.
+9. Before you click 'Connect', head over to 'Settings' tab and scroll down to the 'Config Vars' section. As we have contained our Environment Variables
+   in our env.py file we need to tell Heroku these in a secure manner.
+   Add your variables to the below Key/Value pairs:
+    - IP
+    - PORT
+    - SECRET_KEY
+    - MONGO_URI
+    - MONGO_DBNAME
+
+10. Final step before we connect to Heroku is to push our new files 'requirements.txt' and 'Procfile' to the repository.
+    Back in the terminal have a check of the workspace status, type: git status. this will show your new pending files.
+    Continue in the terminal and type:
+    - $ git add requirements.txt
+    - $ git commit -m "Added requirements.txt"
+ 
+   - $ git add Procfile
+   - $ git commit -m "Added Procfile"
+
+   - $ git push
+
+11. Go back to Heroku 'Deploy' tab, click 'Enable Automatic Deploys' in the section Automatic Deploys. Finally under Manual Deploy section click 'Deploy Branch'.
+    Heroku will now receive the code from GitHub and start building the app using the required packages.
+    Once built you will receive the message 'Your app was successfully deployed' then can click 'View' to launch your new app.
+12. Your deployed app is now available and should update automatically everytime you push to the Github repository.
 
 
 
