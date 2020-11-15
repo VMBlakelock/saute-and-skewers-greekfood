@@ -1,6 +1,7 @@
-/*-- main styles --*/
 
-.html, body{
+/*-- body styles --*/
+
+.html body {
     font-family: Arial, Helvetica, Sans-serif;
 }
 
@@ -16,22 +17,34 @@
     color:rgb(2, 32, 114);
 }
 
-/*-- logo text styling --*/
+.titles-style {
+   font-weight: bold; 
+}
+
+/*-- nav --*/
+/*-- nav logo text styling --*/
 
 .logo-text {
+    font-size: 20px;
     font-style: italic;
     margin-left: 15px;
 }
 
 .food-type {
-    font-size: 12px;
+    font-size: 15px;
     color:rgb(2, 32, 114);
 }
 
-/*-- title_style --*/
+/*-- side nav --*/
+/*-- side-nav logo text styling --*/
 
-.titles-style {
-   font-weight: bold; 
+.side-logo-text {
+    font-style: italic; 
+    margin-left: 10px; 
+}
+
+#bold-title {
+    font-weight: bold;
 }
 
 /*-- paragraph_text --*/
