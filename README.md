@@ -422,12 +422,12 @@ Below shows the steps to deploy on Heroku:
 In [GitHub](https://github.com/) we can view the repository. 
 
 Should you want to 'Fork' or 'Clone' this repository to use as a base template for your own projects you can do so.
-To 'Fork':
+ - To 'Fork':
 1. Head to the repository, on the top right click 'fork' button.
    You now have your own copy of the forked repository in your Github account.
 
 If you want to run this project locally, we must clone the project.
-To 'Clone':
+- To 'Clone':
 1. Under the repository name, click the 'Code' button on the right.
 2. A dropdown 'Clone with HTTPs' section appears, here copy the clone URL for the repository.
 3. In your local IDE open Git Bash.
@@ -435,7 +435,8 @@ To 'Clone':
 6. Type 'git clone' and paste the URL you copied.
 
 - Example: git clone  = https://YOURNAME.github.io/saute-and-skewers-greekfood/
-7. Press Enter. Your local clone is now created.
+
+6. Press Enter. Your local clone is now created.
 
 
 <hr>
