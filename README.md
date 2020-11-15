@@ -412,29 +412,29 @@ Below shows the steps to deploy on Heroku:
 11. Go back to Heroku 'Deploy' tab, click 'Enable Automatic Deploys' in the section Automatic Deploys. Finally under Manual Deploy section click 'Deploy Branch'.
     Heroku will now receive the code from GitHub and start building the app using the required packages.
     Once built you will receive the message 'Your app was successfully deployed' then can click 'View' to launch your new app.
+
 12. Your deployed app is now available and should update automatically everytime you push to the Github repository.
 
 
 
 ##### Github:
 
-In order to deploy the project to [GitHub](https://github.com/) Pages from its GitHub repository, follow the below steps:
+In [GitHub](https://github.com/) we can view the repository. 
 
-1. On menu bar, select the 'Settings' tab.
-2. Here, Scroll down to the GitHub Pages section.
-3. In 'Source' click the drop-down menu labelled None, click and select Master Branch.
-4. Once selected, Master Branch page will automatically refresh, the website will now be deployed.
-5. Head back to the GitHub Pages section here you can retrieve the link of the deployed website.
+Should you want to 'Fork' or 'Clone' this repository to use as a base template for your own projects you can do so.
+To 'Fork':
+1. Head to the repository, on the top right click 'fork' button.
+   You now have your own copy of the forked repository in your Github account.
 
-If you want to run this project locally, we must clone the project for Github:
-
-1. Under the repository name, click the green "Clone or download" button on the right.
+If you want to run this project locally, we must clone the project.
+To 'Clone':
+1. Under the repository name, click the 'Code' button on the right.
 2. A dropdown 'Clone with HTTPs' section appears, here copy the clone URL for the repository.
 3. In your local IDE open Git Bash.
 4. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type 'git clone' and paste the URL you copied.
 
-- Example: git clone  = https://vmblakelock.github.io/saute-and-skewers-greekfood/
+- Example: git clone  = https://YOURNAME.github.io/saute-and-skewers-greekfood/
 7. Press Enter. Your local clone is now created.
 
 
