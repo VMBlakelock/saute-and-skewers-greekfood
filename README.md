@@ -131,26 +131,18 @@ The website owner would like the website design to:
 ### Scope 
 
 - The site was developed with the intention of allowing users to build a database of their own recipes.
-
 - The database of choice to build with was NoSQL - MongoDB.
-
 - It was scoped to provide ease of use.
-
 - Have the CRUD functonality.
-
 - House a home page, registration page, log in page, log out page.
-
 - Be responsive on all devices.
-
 - Be visually appealing that incorporated Greek culture in the front-end design.
 
 
 ### Structure
 
 - Saute & Skewers site structure was created from the UX user stories - therefore developed with pages that where required to enable users to sign up and add data.
-
 - All pages are designed identically with 3 sections - a Navbar, content area and a footer.
-
 - The Home page has a main image and 'Welcome' text. 
 - The Highlights page shows a selection of recipe content and images for all users to view.
 - The Register page has a basic registration form with a button and a link to login if already registered.
@@ -194,11 +186,14 @@ Front-end visuals where based on:
  - Powerful images.
  - Enlighting text in which it is anticipated that the user would feel positive and maybe daydream to another world.
 
-Colours and fonts therefore where important to promote traditional greek culture, with a tempting, feel good reaction.
+The typography colours and fonts therefore where important to promote traditional greek culture, with a tempting, feel good reaction.
 With the Greek flag and its symbolic colours of blue and white, the sites aim was to incorporate this into its design. 
 
 Users will see that Saute & Skewers chose a simplistic design with ample whitespace to provide an instant attraction on site opening.
 
+ - colour: #2196f3 blue from Materialize CSS
+ - colour: rgb(2, 32, 114) from Colorcodehex 
+ - font: Arial from Google Fonts
 
 <hr>
 
@@ -292,7 +287,10 @@ Saute & Skewers - Future features could include:
     - A repository store, used to house the sites repository.
 
 #### Developer Tools
-- Google Dev Tools
+- [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+
+#### Colorcodehex
+- [Colorcode](https://www.colorcodehex.com/022072.html)
 
 #### Font Awesome
 - [Font Awesome](https://fontawesome.com/)
@@ -315,12 +313,16 @@ Saute & Skewers - Future features could include:
 *Defensive design is the practice of planning for contingencies in the design stage of a project or undertaking. Essentially, it is the practice of anticipating all possible ways that an end-user could misuse a device, and designing the device so as to make such misuse impossible, or to minimize the negative consequences.*
 [Wikipedia](https://en.wikipedia.org/wiki/Defensive_design/)
 
-......................
+Defensive design was used in the projects 'Form' elements. When entering text to the sites form areas the defensive design can be seen in action.
+To ensure the user inputs are correct they are validated by the class 'validate' and the inputs 'minlength', 'maxlength' and 'pattern'.
 
 ### Testing
 
-Testing was undertaken during the creation of this site, manual testing included tests on various devices. W3C Markup Validator, validation check was ongoing throughout the project development.
-Pep8 compliance ......
+Manual Testing was undertaken during the creation of this site. 
+Testing included tests on various devices for responsiveness and UX aswell as testing code for validation and best practice.
+Testing sites used:
+ - W3C Markup Validator
+ - Pep8 Compliance
 
 Below highlights the main issues and bugs found during the development.
 
@@ -339,9 +341,12 @@ Needed more pages adding to site to allow for guest user and session user intera
 
 #### Issue 4
 
-Materialize Carousel wasnt loading wellm the links kept breaking
+Materialize Carousel wasnt loading well, the links kept breaking therefore removed after various tests when the developer couldnt fix.
 
 #### Issue 5
+
+The navbar and footer background should have been the same colour. However the developer could not get the colours to match using the Materialize
+colour #2196f3 blue. Therefore decided to use a deeper blue in CSS file, the :rgb(2, 32, 114). 
 
 #### Issue 6
 
