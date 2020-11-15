@@ -2,7 +2,7 @@
 
 # Saute & Skewers | Greek Food 
 
-*Share favourite Greek recipes with the community*
+*Share favourite Greek recipes with the Saute & Skewers community*
 
 *Deployed to [Heroku](https://https://dashboard.heroku.com/) and stored in [Github](https://github.com/)*
 
@@ -253,36 +253,54 @@ Saute & Skewers - Future features could include:
 
 
 #### Technologies
-- HTML
-- CSS
-- Javascript
-- Python
+- [HTML](https://www.w3schools.com/whatis/whatis_html.asp)
+- [CSS](https://www.w3schools.com/css/css_intro.asp)
+- [Javascript](https://www.w3schools.com/whatis/whatis_js.asp)
+- [Python](https://www.python.org/doc/essays/blurb/)
 - JSON
 
 #### Frameworks
 - [Flask](https://palletsprojects.com/p/flask/)
-    - [Werkzeug](https://palletsprojects.com/p/werkzeug/)
+    - The web application framework used in the project to provide tools and libraries.
+
+- [Werkzeug](https://palletsprojects.com/p/werkzeug/)
+    - A web application library in Flask that was used to for secure authentication using password hashing.
+
 - [Materialize](https://materializecss.com/)
+    - A web based front-end framework that assists in responsiveness and styling that was used throughout the project.
+
 - [JQuery](https://jquery.com/)
+    - The JavaScript library used within the Materialize framework.
 
 #### Database
 - [MongoDB](https://www.mongodb.com/cloud/atlas/)
+    - A document based database, and the type of databased used when developing this project
 
 #### Text Editor
 - [Gitpod](https://gitpod.io/)
+    - A cloud based IDE, that uses prebuilt workspaces.
 
 #### Version Control
-- Git
+- [Git](https://git-scm.com/)
+    - Version control system that works within the Gitpod terminal. Used to commit and push recent code to GitHub.
 
 #### Hosting Platform
-- [Heroku](https://https://dashboard.heroku.com/) - For the live deployed site
-- [Github](https://github.com/) - To house the sites repository
+- [Heroku](https://https://dashboard.heroku.com/)
+    -The application platform used for the live deployed site.
+
+- [Github](https://github.com/)
+    - A repository store, used to house the sites repository.
 
 #### Developer Tools
 - Google Dev Tools
 
 #### Font Awesome
 - [Font Awesome](https://fontawesome.com/)
+    - A popular site that provides icons for developers to use for UX.
+
+#### RandomKeygen
+- [RandomKeygen](https://www.randomKeygen.com/)
+  - Site to select a secure SECRET_KEY password.
 
 #### Validation sites
 - [W3C Markup Validation](https://validator.w3.org/)
@@ -486,8 +504,11 @@ Websites reviewed and used during the creation of this project.
 - [Pexels](https://www.pexels.com/)
   - Used for site Images.
 
+- [Python](https://www.python.org/doc/essays/blurb/)
+    - Reviewed for deeper understanding of the language.
+
 - [RandomKeygen](https://www.randomKeygen.com/)
-  - Site to select a secure SECRET_KEY password.
+  - Used for Fort Knox password.
 
 - [StackOverflow](https://stackoverflow.com/)
   - Various research throughout.
@@ -497,6 +518,9 @@ Websites reviewed and used during the creation of this project.
 
 - [Tech with Tim](https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX)
     - A series of You Tube tutorial videos to gain greater understanding of Flask.
+
+- [Werkzeug](https://palletsprojects.com/p/werkzeug/)
+    - Used to gain knowledge in authentication and secure passwords.
 
 - [W3Schools](https://www.w3schools.com/basic-syntax/)
   - Reviewed and used frequently throughout the design of this project.
