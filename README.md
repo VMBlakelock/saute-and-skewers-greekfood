@@ -417,7 +417,7 @@ Below shows the steps to deploy on Heroku:
 
 
 
-##### Github:
+#### Github:
 
 In [GitHub](https://github.com/) we can view the repository. 
 
@@ -509,14 +509,16 @@ Websites reviewed and used during the creation of this project.
 
 ## Acknowledgements
 
-Slack and the wonderful community of students past and present for thier motivational pushes.
+[Slack](https://slack.com/intl/en-gb/) and the wonderful community of students past and present for thier motivational pushes.
 
 My mentor Spencer Barriball for his profound knowledge and assistance in the development of the website.
 
-For additional support and guidance Tutor Support guided me.
+[Code Institute](https://codeinstitute.net/) Tutor Support for guidance and assistance when facing difficulties.
 
 The developers own personal experiences during the creation and development of this project.
 
 
 *created for education purposes only*
+
+
 
