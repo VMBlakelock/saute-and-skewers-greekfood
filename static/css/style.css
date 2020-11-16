@@ -21,8 +21,8 @@
    font-weight: bold; 
 }
 
-/*-- nav --*/
-/*-- nav logo text styling --*/
+/*-- index.html --*/
+/*-- nav logo --*/
 
 .logo-text {
     font-size: 20px;
@@ -35,8 +35,7 @@
     color:rgb(2, 32, 114);
 }
 
-/*-- side nav --*/
-/*-- side-nav logo text styling --*/
+/*-- side-nav logo  --*/
 
 .side-logo-text {
     font-style: italic; 
@@ -45,6 +44,11 @@
 
 #bold-title {
     font-weight: bold;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height:auto;
 }
 
 /*-- paragraph_text --*/
@@ -91,6 +95,21 @@
     word-spacing: 20px;
 }
 
+
+/*-- add_recipe.html --*/
+
+.switch {
+    margin-bottom: 30px;
+}
+
+
+/*-- highlights.html --*/
+
+.underline {
+    text-decoration: underline;
+}
+
+
 /*-- footer --*/
 
 .icons {
@@ -106,7 +125,8 @@
     background-color:rgb(2, 32, 114);  
 }
 
-/*-- copyright icon --*/
+
+/*-- copyright --*/
 
 #bold {
     font-weight: bold;
