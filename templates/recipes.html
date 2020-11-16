@@ -3,27 +3,32 @@
 
 <h4 class="titles-text titles-style text-shadow center-align">Take a look at your recipes</h4>
 
-{% for recipe in recipes %}
-<hr>
+<div class="row">
+	<div class="col s12 center-align">
+		<img class="responsive-img" src="static/images/pexels-advocado.jpeg" alt="Advocado">
+        </div>
+	</div>
 
-<p class="p-text">HOW CAN I STYLE THIS TEXT</p>
+	{% for recipe in recipes %}
+	<hr>
 
-{{ recipe.category_name }}<br>
+	<p class="p-text">HOW CAN I STYLE THIS TEXT</p>
+
+	{{ recipe.category_name }}<br>
 {{ recipe.recipe_name }}<br>
 {{ recipe.recipe_ingredients }}<br>
 {{ recipe.recipe_method }}<br>
 {{ recipe.created_by }}<br>
 
-<div class="row">
-	<button type="submit" class="col s12 btn-small #0d47a1 blue darken-4 text-shadow">
-                        Edit <i class="far fa-edit"></i>
+	<div class="row">
+		<button type="submit" class="col s12 btn-small #0d47a1 blue darken-4 text-shadow">
+                        Edit
                     </button>
 
-	<button type="submit" class="col s12 btn-small #d50000 red accent-4 text-shadow">
-                        Delete <i class="far fa-trash-alt"></i>
+		<button type="submit" class="col s12 btn-small #d50000 red accent-4 text-shadow">
+                        Delete 
                     </button>
-</div>
-{% endfor %}
-{% endblock %}
-
+	</div>
+	{% endfor %}
+	{% endblock %}
     

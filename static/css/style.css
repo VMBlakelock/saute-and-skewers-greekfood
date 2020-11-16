@@ -94,11 +94,16 @@
     word-spacing: 20px;
 }
 
+/*-- recipes.html --*/
+
+.btn-small {
+    max-width: 70px;
+}
 
 /*-- add_recipe.html --*/
 
 .switch {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 

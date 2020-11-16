@@ -191,7 +191,7 @@ With the Greek flag and its symbolic colours of blue and white, the sites aim wa
 
 Users will see that Saute & Skewers chose a simplistic design with ample whitespace to provide an instant attraction on site opening.
 
- - colour: #2196f3 blue from Materialize CSS
+ - colour: #0d47a1 blue darken-4 from Materialize CSS
  - colour: rgb(2, 32, 114) from Colorcodehex 
  - font: Arial from Google Fonts
 
