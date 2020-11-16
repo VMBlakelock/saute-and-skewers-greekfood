@@ -32,7 +32,6 @@
 
 .food-type {
     font-size: 15px;
-    color:rgb(2, 32, 114);
 }
 
 /*-- side-nav logo  --*/
@@ -82,13 +81,17 @@
     margin-top: 25px;
 }
 
+.fa-user {
+    margin-bottom: 25px;
+}
+
+.circle-img {
+   border-radius: 50%;
+}
+
 .hyperlink{
     margin-top: 40px;
     font-size: 20px;
-}
-
-.fa-user {
-    margin-bottom: 25px;
 }
 
 .spacing {
