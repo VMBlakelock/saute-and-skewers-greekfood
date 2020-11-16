@@ -14,30 +14,30 @@
 	<div class="col s12 center-align">
 		<p class="profile-text-size" id="profile-text">Welcome Back!</p>
 
-		<div class="row">
+        <i class="fas fa-user fa-4x titles-text"></i>
+
+		<div class="card-panel">
+        <div class="row">
 			<div class="col s12 center-align">
 				<p class="p-text margin">How can Saute & Skewers inspire you today!</p>
 
-				<div class="row">
-					<div class="col s12 center-align">
 						<p class="p-text margin">Read some of the new great recipes the community has added,</p>
             
-						<div class="row">
-							<div class="col s12 center-align">
 								<p class="p-text">or maybe add some more of your recent favourites.</p>
 
-								<div class="row">
-									<div class="col s12 center-align">
 										<p class="p-text margin">Go on, take a look and be tempted to cook!</p>
+									
 
 										<!-- hyperlink to add_recipe.html -->
-										<div class="row hyperlink">
-											<a href="{{ url_for('add_recipe') }}">Add Recipe </a>
-										</div>
-									</div>
+								<div class="row hyperlink spacing">
+									<a href="{{ url_for('highlight_recipes') }}">Highlights</a>
+                                    <a href="{{ url_for('get_recipes') }}">Recipes</a>
+                                    <a href="{{ url_for('add_recipe') }}">Add-Recipe</a>
 								</div>
-							</div>
-						</div>
-					</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
 
-				{% endblock %}
+{% endblock %}
