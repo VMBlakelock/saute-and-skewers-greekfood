@@ -17,24 +17,27 @@ app.secret_key = os.environ.get("SECRET_KEY")
 
 mongo = PyMongo(app)
 
-
+# home page
 @app.route("/")
 @app.route("/index")
 def index():
     return render_template("index.html")
 
 
+# recipes page
 @app.route("/get_recipes")
 def get_recipes():
     recipes = mongo.db.recipes.find()
     return render_template("recipes.html", recipes=recipes)
 
 
+# highlights page
 @app.route("/highlight_recipes")
 def highlight_recipes():
     return render_template("highlights.html")
 
 
+# register
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
@@ -60,6 +63,7 @@ def register():
     return render_template("register.html")
 
 
+# login page
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
@@ -89,6 +93,7 @@ def login():
     return render_template("login.html")
 
 
+# profile page
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
     # grab the session user's username from db
@@ -101,6 +106,7 @@ def profile(username):
     return render_template("login")
 
 
+# logout page
 @app.route("/logout")
 def logout():
     # remove user from session cookie
@@ -109,6 +115,7 @@ def logout():
     return redirect(url_for("login"))
 
 
+# add recipe page
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
     if request.method == "POST":
@@ -127,10 +134,11 @@ def add_recipe():
     return render_template("add_recipe.html", categories=categories)
 
 
+# edit recipe page
 @app.route("/edit_recipe/<recipes_id>", methods=["GET", "POST"])
 def edit_recipe(recipes_id):
     if request.method == "POST":
-        recipe = {
+        submit = {
             "category_name": request.form.get("category_name"),
             "recipe_name": request.form.get("recipe_name"),
             "recipe_ingredients": request.form.get("recipe_ingredients"),
@@ -143,7 +151,7 @@ def edit_recipe(recipes_id):
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipes_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template(
-        "edit_recipe.html", recipes=recipe, categories=categories)
+        "edit_recipe.html", recipe=recipe, categories=categories)
 
 
 if __name__ == "__main__":
