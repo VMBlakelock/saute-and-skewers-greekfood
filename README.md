@@ -1,4 +1,4 @@
-<img src="assets/images/destination-date-night-mock-up.png">
+<img src="static/images/mock-up-responsive.JPG">
 
 # Saute & Skewers | Greek Food 
 
@@ -350,6 +350,8 @@ colour #2196f3 blue. Therefore decided to use a deeper blue in CSS file, the :rg
 
 #### Issue 6
 
+Images on a few pages are not natural looking,  they are to large. For instance on the 'Recipes' page, this is far to big and needs to be reduced.
+Due to time constraints this was not able to be rectified.
 
 Validation sites
 - When validating the code for HTML and CSS errors where found and rectified. Mostly simple errors and typos.
@@ -382,8 +384,14 @@ Laptop:
 
 ## Evaluation
 
-- Overall the design and development of this site is ................. It has all the basic requirements of a functional website and meets the project criteria.
+- Overall the design and development of this site is suitable for its intended purpose.
+- It has all.............. the basic requirements of a functional website and meets .............the project criteria.
+
+- Again to do external commitments the site is not fully complete. The developer is aware of various aspects that dont function as intended or is missing.
+    - The CRUD Functionality is in place, however the developer struggled to wire this up correctly. Therefore Edit and Delete buttons do not do anything.
+    - The Edit Recipies page doesnt show.................
 - Most of the user stories where met, with the exception of .... editing user content.. probabably better to just delete or block user..............
+- Images on the site are not all suitable for the sites look. This is something that needs changing so it gives the site a better visuals.
 - Many future features could be added to provide more interactive activity, functionality and imagery.
 - Branch testing - No branch testing was undertaken....
 - Manual Testing was undertaken .....Werkzeug ..........................more testing was required..
