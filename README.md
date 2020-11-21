@@ -108,9 +108,6 @@ The website owner would like the website design to:
 <hr>
 
 
-<img src="static/images/pexels-greek-flag.jpeg">
-
-
 ## The 5 Planes of content strategy
 
 ### Strategy
@@ -281,7 +278,7 @@ Saute & Skewers - Future features could include:
 
 #### Hosting Platform
 - [Heroku](https://https://dashboard.heroku.com/)
-    -The application platform used for the live deployed site.
+    - The application platform used for the live deployed site.
 
 - [Github](https://github.com/)
     - A repository store, used to house the sites repository.
@@ -320,9 +317,9 @@ To ensure the user inputs are correct they are validated by the class 'validate'
 
 Manual Testing was undertaken during the creation of this site. 
 Testing included tests on various devices for responsiveness and UX aswell as testing code for validation and best practice.
-Testing sites used:
- - W3C Markup Validator
- - Pep8 Compliance
+ - Testing sites used:
+   - W3C Markup Validator
+   - Pep8 Compliance
 
 Below highlights the main issues and bugs found during the development.
 
@@ -333,15 +330,15 @@ Initial routing wasnt correct, data was coming through to recipes.html as id for
 
 #### Issue 2
 
-
+Edit and Delete routing ...................
 
 #### Issue 3
 
-Needed more pages adding to site to allow for guest user and session user interaction
+The Recipes page, is not working as hoped. Visually its not good ........................
 
 #### Issue 4
 
-Materialize Carousel wasnt loading well, the links kept breaking therefore removed after various tests when the developer couldnt fix.
+Needed more pages adding to site to allow for guest user and session user interaction. .....
 
 #### Issue 5
 
@@ -350,8 +347,13 @@ colour #2196f3 blue. Therefore decided to use a deeper blue in CSS file, the :rg
 
 #### Issue 6
 
+Materialize Carousel wasnt loading well, the links kept breaking therefore removed after various tests when the developer couldnt fix.
+
+#### Issue 7
+
 Images on a few pages are not natural looking,  they are to large. For instance on the 'Recipes' page, this is far to big and needs to be reduced.
 Due to time constraints this was not able to be rectified.
+
 
 Validation sites
 - When validating the code for HTML and CSS errors where found and rectified. Mostly simple errors and typos.
@@ -368,16 +370,17 @@ Validation sites
 
 ### Devices tested
 
-On final testing session the below devices where used here are the outcomes.
+On the final testing session the below devices where used to check if responsive, here are the outcomes.
 
 Mobile:
-- Android - Samsung Galaxy A40 - Outcome: Site works perfectly. No bugs found. All is responsive.
-- Android - Samsung Galaxy A20 - Outcome: Site works perfectly. No bugs found. All is responsive.
-- Android - Samsung Galaxy S10 - Outcome: Site works perfectly. No bugs found. All is responsive.
+- Android - Samsung Galaxy A40 - Outcome: All is responsive.
+- Android - Samsung Galaxy A20 - Outcome: All is responsive.
+- Android - Samsung Galaxy S10 - Outcome: All is responsive.
 
 Laptop:
-- Toshiba Satellite C850 - Outcome: Site works perfectly. No bugs found. All is responsive. 
+- Toshiba Satellite C850 - Outcome: All is responsive. 
 
+All devices failed to have the Edit and Delete function correctly but this was due to the development of the routing not working.
 
 <hr>
 
@@ -390,6 +393,7 @@ Laptop:
 - Again to do external commitments the site is not fully complete. The developer is aware of various aspects that dont function as intended or is missing.
     - The CRUD Functionality is in place, however the developer struggled to wire this up correctly. Therefore Edit and Delete buttons do not do anything.
     - The Edit Recipies page doesnt show.................
+    
 - Most of the user stories where met, with the exception of .... editing user content.. probabably better to just delete or block user..............
 - Images on the site are not all suitable for the sites look. This is something that needs changing so it gives the site a better visuals.
 - Many future features could be added to provide more interactive activity, functionality and imagery.
