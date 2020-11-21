@@ -21,8 +21,10 @@
 
 	<!-- edit and delete buttons-->
 	<div class="row">
-		<a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}" class="col s12 btn-small #0d47a1 blue darken-4 text-shadow">Edit</a>
-        <a href="" class="col s12 btn-small #d50000 red accent-4 text-shadow">Delete</a>
-		</div>
-		{% endfor %}
-		{% endblock %}
+		<a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}"
+			class="col s12 btn-small #0d47a1 blue darken-4 text-shadow">Edit</a>
+
+		<a href="" class="col s12 btn-small #d50000 red accent-4 text-shadow">Delete</a>
+	</div>
+	{% endfor %}
+	{% endblock %}
