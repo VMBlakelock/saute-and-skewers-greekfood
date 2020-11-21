@@ -1,8 +1,8 @@
 <img src="static/images/mock-up-responsive.JPG">
 
-# Saute & Skewers | Greek Food 
+# Sauté & Skewers | Greek Food 
 
-*Share favourite Greek recipes with the Saute & Skewers community*
+*Share favourite Greek recipes with the Sauté & Skewers community*
 
 *Deployed to [Heroku](https://https://dashboard.heroku.com/) and stored in [Github](https://github.com/)*
 
@@ -47,7 +47,7 @@ Prime technologies to be used in the project are HTML/CSS/Javascript/Python/Flas
 
 ### Purpose
 
-Saute & Skewers is a Greek food website where users can view recipes stored in the sites database, however registered users can also manipulate their own data using the create, read, update and delete - CRUD functionality.
+Sauté & Skewers is a Greek food website where users can view recipes stored in the sites database, however registered users can also manipulate their own data using the create, read, update and delete - CRUD functionality.
 
 It is hoped that all users to the site will find the website to be of interest and of use. Registered users have the added benefit of actively being part of a community.
 
@@ -112,16 +112,12 @@ The website owner would like the website design to:
 
 ### Strategy
 
-- Saute & Skewers is a functional website. It allows simple usage to provide a great way to add and share content. 
-
-- It features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and Flask. It is deployed to a MongoDB database. 
-
-- There is a clear brand that draws users and entices interactions.
-
+- Sauté & Skewers is a functional website. It allows simple usage to provide a great way to add and share content. 
+- It features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and Flask. 
+- The project hosts a MongoDB database. 
+- There is a clear brand to the site that draws users and entices further interaction.
 - Users who discover Saute & Skewers, easily grasps it's concept - how it works and what it's output is.
-
 - Saute & Skewers has the potential of not only being a content sharing site, it could potentially become a business site. Adding a few addtional features and marketing the site well could mean Saute & Skewers could generate revenues.
-
 - During research there where other sites found that had the same concept, although the Greek aspect was minimal. 
 
 
@@ -130,33 +126,30 @@ The website owner would like the website design to:
 - The site was developed with the intention of allowing users to build a database of their own recipes.
 - The database of choice to build with was NoSQL - MongoDB.
 - It was scoped to provide ease of use.
-- Have the CRUD functonality.
-- House a home page, registration page, log in page, log out page.
+- Needed to have the CRUD functonality.
+- Must house a home page, registration page, log in page, log out page.
 - Be responsive on all devices.
 - Be visually appealing that incorporated Greek culture in the front-end design.
 
 
 ### Structure
 
-- Saute & Skewers site structure was created from the UX user stories - therefore developed with pages that where required to enable users to sign up and add data.
+- Sauté & Skewers site structure was created from the UX user stories - therefore developed with pages that where required to enable users to sign up and add data.
 - All pages are designed identically with 3 sections - a Navbar, content area and a footer.
 - The Home page has a main image and 'Welcome' text. 
 - The Highlights page shows a selection of recipe content and images for all users to view.
 - The Register page has a basic registration form with a button and a link to login if already registered.
 - The Login page has a basic login form with a button and a link to register if not already a member. 
-- Once logged in the Login page becomes a Profile page, this shows a 'Welcome back' text, a few enticing words and a link to the 'Add Recipe' Page
-- The Add Recipe page is where users add their own recipes once they submit the recipe it takes them to the Recipes page.
-- The Recipes page is the home of user recipes already added. This is data stored in the database.
+- Once logged in the Login page becomes a Profile page, this shows a 'Welcome back' text, a few enticing words and a links to the 'Add Recipe' 'Highlights' 'Recipes' Page.
+- The Add Recipe page is where users add their own recipes once they submit the recipe it should take them to the Recipes page where the user can see it.
+- The Recipes page is the home of user recipes already added. This is data stored in the MongoDB database.
 - Finally the Log out page displays, a 'You have been logged out message' and the same Log in view.
 
 ### Skeleton
 
-Wireframes where created with only the main pages of the site in mind. Therefore only four where initially created.
-
-These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
-
-All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
-
+- Wireframes where created with only the main pages of the site in mind. Therefore only four where initially created.
+- These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
+- All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
 Desktop:
 
@@ -164,7 +157,6 @@ Desktop:
 [Register](wireframes/register-desktop.png)
 [Login](wireframes/login-desktop.png)
 [Recipes](wireframes/recipes-desktop.png)
-
 
 Mobile:
 
@@ -174,19 +166,18 @@ Mobile:
 [Recipes](wireframes/recipes-mobile.png)
 
 
-
 ### Surface 
 
 Front-end visuals where based on:
  - A great brand design.
  - Traditional Greek colours.
- - Powerful images.
- - Enlighting text in which it is anticipated that the user would feel positive and maybe daydream to another world.
+ - Powerful food images.
+ - Enlighting text, in which it is anticipated that the user would feel positive and maybe daydream to travel or be inspired to cook.
 
 The typography colours and fonts therefore where important to promote traditional greek culture, with a tempting, feel good reaction.
 With the Greek flag and its symbolic colours of blue and white, the sites aim was to incorporate this into its design. 
 
-Users will see that Saute & Skewers chose a simplistic design with ample whitespace to provide an instant attraction on site opening.
+Users will see that Sauté & Skewers chose a simplistic design with ample whitespace to provide an instant attraction on site opening.
 
  - colour: #0d47a1 blue darken-4 from Materialize CSS
  - colour: rgb(2, 32, 114) from Colorcodehex 
@@ -208,28 +199,28 @@ Navbar: A Materialize fixed Navbar at the top on desktop and a side navbar on mo
 
 Button: Chosen from Materialize the buttons when clicked confirm user actions. Buttons are big and provide instruction. 
 
-Forms: Code from Materialize. The Register, Log in, Add recipe pages all have forms to complete. The forms are self explanatory.
+Forms: Code from Materialize. The Register, Log in, Add Recipe pages all have forms to complete. The forms are self explanatory.
 
 Icons: Font Awesome icons are used on the form fields to provide instructions aswell as for design. 
 
 Images: Bold and relevant images where used in the design. Selected images provide a luxury feel.
 
-Hyperlink: There is a hyperlink on the 'register page', 'login page' and 'profile page' to revert user to an alternative area dependent on their next wanted action.
+Hyperlink: There is a hyperlink on the 'Register page', 'Login page' and 'Profile page' to redirect users to an alternative area dependent on their next wanted action.
 
-Flash Messages: Flash messages provide feedback to users. User that have an unsuccessful login will recieve "username or password incorrect".
-The 'Registered users' will see, "Welcome USERNAME" on login and "You have successfully logged out" on log out.
+Flash Messages: Flash messages provide feedback to users. Users that have an unsuccessful login will recieve the message "Incorrect Username and/or Password".
+The 'Registered users' will see, "Welcome, USERNAME" on login and on logging out user will recieve the message "You have successfully logged out".
 
-Social Media Links: Saute & Skewers has various Social Media accounts therefore icons for these are found in the footer.
+Social Media Links: Saute & Skewers has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
 
 
 ### Future Features
 
-Saute & Skewers - Future features could include:
+Sauté & Skewers - Future features could include:
 
 - Having a larger database of greek recipes for guest users to view.
-- An image field on Add recipe page where users can upload images of their own Greek foods to their recipes.
+- An image field on Add Recipe page where users can upload images of their own Greek foods to their recipes.
 - User profile to be extended to allow users to upload images and information about them that other registered users can see.
-- Have a logo, incorporate the Saute & Skewers text into something more memorable.
+- Have a logo, incorporate the Sauté & Skewers text into something more memorable.
 - Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
 - A badge or icon level that registered users of the site could achieve, when X number of entries have been added - i.e - Top Contributer.
 - A review score or like element that the community of users can click on, if they like or have tried a recipe posted by others.
@@ -480,10 +471,11 @@ If you want to run this project locally, we must clone the project.
 ## Credits and References
 
 Personal credits go out to the following people:
-- Spencer Barriball and excellent mentor who guided and assisted in the development of the project from inception to completion. 
+- Spencer Barriball mentor who guided in the development of the project at inception stage. 
 
 Tutor Support
 - Tim Nelson from tutor support who clarified issues within Cloud 9 videos and Gitpod usage.
+- Samantha from student support who tried to assist with the routhing issue. Although time was to tight and this wasnt rectified.
 
 
 Web References
@@ -552,7 +544,7 @@ Websites reviewed and used during the creation of this project.
 
 [Slack](https://slack.com/intl/en-gb/) and the wonderful community of students past and present for thier motivational pushes.
 
-My mentor Spencer Barriball for his profound knowledge and assistance in the development of the website.
+My mentor Spencer Barriball and initial guidance on the development of the website.
 
 [Code Institute](https://codeinstitute.net/) Tutor Support for guidance and assistance when facing difficulties.
 

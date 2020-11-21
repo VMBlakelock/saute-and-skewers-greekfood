@@ -12,24 +12,23 @@
 	{% for recipe in recipes %}
 	<hr>
 
-	<p class="p-text">HOW CAN I STYLE THIS TEXT</p>
-
 	{{ recipe.category_name }}<br>
 {{ recipe.recipe_name }}<br>
 {{ recipe.recipe_ingredients }}<br>
 {{ recipe.recipe_method }}<br>
 {{ recipe.created_by }}<br>
 
+	<!-- edit and delete buttons-->
 
 	<div class="row">
 		<button type="submit" class="col s12 btn-small #0d47a1 blue darken-4 text-shadow">
                         Edit 
                     </button>
 
-		<button type="button" class="col s12 btn-small #d50000 red accent-4 text-shadow">
+		<div class="row">
+			<button type="button" class="col s12 btn-small #d50000 red accent-4 text-shadow">
                         Delete
                     </button>
-	</div>
-	{% endfor %}
-	{% endblock %}
-    
+		</div>
+		{% endfor %}
+		{% endblock %}
