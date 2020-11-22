@@ -13,28 +13,28 @@
 		<p class="profile-text-size" id="profile-text">Welcome Back!</p>
 
 		<i class="fas fa-user fa-4x titles-text"></i>
+	</div>
+</div>
 
-		<div class="card-panel #fafafa grey lighten-3">
-			<div class="row">
-				<div class="col s12 center-align">
-					<p class="p-text margin">How can Sauté & Skewers inspire you today!</p>
+<div class="card-panel #fafafa grey lighten-3">
+	<div class="row">
+		<div class="col s12 center-align">
+			<p class="p-text">How can Sauté & Skewers inspire you today!</p>
 
-					<p class="p-text margin">Read some of the new great recipes the community have added,</p>
+			<p class="p-text margin">Read some of the new great recipes the community have added,</p>
 
-					<p class="p-text">or maybe add some more of your own recent favourites.</p>
+			<p class="p-text">or maybe add some more of your own recent favourites.</p>
 
-					<p class="p-text margin">Go on, take a look and be tempted to cook!</p>
+			<p class="p-text margin">Go on, take a look and be tempted to cook!</p>
 
-					<!-- hyperlink to add_recipe.html -->
-					<div class="row hyperlink spacing">
-						<a href="{{ url_for('highlight_recipes') }}">Highlights</a>
-						<a href="{{ url_for('get_recipes') }}">Recipes</a>
-						<a href="{{ url_for('add_recipe') }}">Add-Recipe</a>
-					</div>
-				</div>
+			<!-- hyperlink to other pages -->
+			<div class="row hyperlink spacing bottom-margin">
+				<a href="{{ url_for('highlight_recipes') }}">Highlights</a>
+				<a href="{{ url_for('get_recipes') }}">Recipes</a>
+				<a href="{{ url_for('add_recipe') }}">Add-Recipe</a>
 			</div>
 		</div>
 	</div>
-			
+</div>
 
-{% endblock %}
+	{% endblock %} 

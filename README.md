@@ -1,10 +1,10 @@
-<img src="static/images/mock-up-responsive.JPG">
+<img src="static/images/mock-up-responsive.jpg">
 
 # Sauté & Skewers | Greek Food 
 
 *Share favourite Greek recipes with the Sauté & Skewers community*
 
-*Deployed to [Heroku](https://https://dashboard.heroku.com/) and stored in [Github](https://github.com/)*
+*Deployed to [Heroku](https://flask-saute-and-skewers.herokuapp.com/) and stored in [Github](https://github.com/)*
 
 <hr>
 
@@ -59,7 +59,7 @@ It is hoped that all users to the site will find the website to be of interest a
 
 ## User stories
 
-There are three types of users for this website, users stories for each are discussed below:
+There are three types of users for this website, 'User Stories' for each user are discussed below:
 
 ### Guest User
 
@@ -68,8 +68,8 @@ As a guest user I want to:
  - find a navigation bar that links to other pages when clicked. 
  - understand the sites purpose upon landing.
  - be able to view various content on the site.
- - be able to click social media icons to link out to other Saute & Skewer pages.
- - have the option to register to the site to see more.
+ - be able to click social media icons to link out to other Sauté & Skewer pages.
+ - have the option to register to the site to be able to interact with the site and to see more.
 
 ### Registered Account
 
@@ -78,31 +78,35 @@ As a registered user I want to:
  - log into the site easily.
  - log out successfully.
  - have buttons to click to login, log out and submit data.
+ - view other members recipes.
  - be able to add my own recipes to the site.
- - add recipes in an functional fashion.
  - edit my recipes if a mistake is made.
+ - be able to cancel a recipe if I change my mind.
  - be able to delete my recipes should I wish.
+ - be notified of all my interactive actions.
 
 ### Admin User
 
 As an admin user I want to:
 - have full access to the site to ensure all content is viable.
 - have access to be able to add more of my own recipes to the site.
-- edit any content posted by me or by users of the site.
-- have access to delete dormant or incomplete entries added to the site.
+- edit any content posted by me.
+- have access to delete all users entries if incomplete and/or are not suitable for the site.
 
 
 ### Website Owner
 
 The website owner would like users of the website to:
 -  Interact with the site.
--  Enjoy the site and use it as a useful tool to find Greek food recipes.
+-  Enjoy the site.
+-  Find the site a useful tool to find Greek food recipes.
 -  Contribute to the site to create a vast selection of interesting data.
 
 The website owner would like the website design to: 
-- be clean and crisp looking with colors and a theme that portrays Greek Culture.
+- be clean and crisp with visuals that use the Greek colours and theme and that portrays Greek Culture.
 - have Greek images that creates an instant attraction to the site.
 - have whitespace to create flow.
+- be easy to navigate.
 - have a footer containing social media icon links.
 
 <hr>
@@ -114,11 +118,12 @@ The website owner would like the website design to:
 
 - Sauté & Skewers is a functional website. It allows simple usage to provide a great way to add and share content. 
 - It features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and Flask. 
-- The project hosts a MongoDB database. 
+- The project uses a MongoDB database. 
 - There is a clear brand to the site that draws users and entices further interaction.
-- Users who discover Saute & Skewers, easily grasps it's concept - how it works and what it's output is.
-- Saute & Skewers has the potential of not only being a content sharing site, it could potentially become a business site. Adding a few addtional features and marketing the site well could mean Saute & Skewers could generate revenues.
-- During research there where other sites found that had the same concept, although the Greek aspect was minimal. 
+- Users who discover Sauté & Skewers, easily grasps it's concept - how it works and what it's output is.
+- Sauté & Skewers has the potential of not only being a content sharing site, it could potentially become a business site. 
+  Adding a few addtional features and marketing the site well could mean Sauté & Skewers could generate revenues.
+- During research there where other sites found that had the same 'recipe adding' concept, although the Greek aspect was minimal. 
 
 
 ### Scope 
@@ -135,19 +140,25 @@ The website owner would like the website design to:
 ### Structure
 
 - Sauté & Skewers site structure was created from the UX user stories - therefore developed with pages that where required to enable users to sign up and add data.
-- All pages are designed identically with 3 sections - a Navbar, content area and a footer.
-- The Home page has a main image and 'Welcome' text. 
-- The Highlights page shows a selection of recipe content and images for all users to view.
+- All pages are designed identically with 3 sections - a navbar, content area and a footer.
+- The Home page has 'Welcome' text that introduces the site. An 'About Us' section that gives instruction to join. A main image and 3 smaller images. 
+- The Highlights page shows a selection of recipe content and images for all users to view. This can be updated and/or changed - as and when the owner wants.
 - The Register page has a basic registration form with a button and a link to login if already registered.
 - The Login page has a basic login form with a button and a link to register if not already a member. 
-- Once logged in the Login page becomes a Profile page, this shows a 'Welcome back' text, a few enticing words and a links to the 'Add Recipe' 'Highlights' 'Recipes' Page.
-- The Add Recipe page is where users add their own recipes once they submit the recipe it should take them to the Recipes page where the user can see it.
+- Once logged in the Login page opens a Profile page, this shows a 'Welcome Back' text, a few enticing words and a links to the 'Add Recipe' 'Highlights' 'Recipes' Pages.
+- The Add Recipe page is where users can add their own recipes. There is a form to complete and a 'Add Recipe' button to submit their recipe. 
+  Once the recipe is submitted the user is redirected to the Recipes page with a flash message 'Recipe Successfully Added' here the user can see their new entry.
 - The Recipes page is the home of user recipes already added. This is data stored in the MongoDB database.
-- Finally the Log out page displays, a 'You have been logged out message' and the same Log in view.
+- If logged in, a user can see all recipes in the database, with functionality to 'edit' or 'delete' their own.
+- If the user wants to 'Edit' a recipe they created, they can click on the edit button and it will take them to the 'Edit Recipe' Page.
+- The Edit Recipe page mirrors the Add Recipe page, however this has an additional 'Cancel' button in case the user changes their mind.
+- If the user wants to 'Delete' an entry, they can click the 'Delete' button and the recipe will be deleted. The user is advised with a flash message 'Recipe has been deleted'.
+- Users can only Edit or Delete their own recipes, buttons are not active on other users entries.
+- Finally the Log Out page displays, a 'You have been logged out message' and the returns to the Log In page view.
 
 ### Skeleton
 
-- Wireframes where created with only the main pages of the site in mind. Therefore only four where initially created.
+- Wireframes where created with only the main pages of the site in mind. Therefore only four for 2 device type where initially created.
 - These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
 - All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
@@ -172,16 +183,17 @@ Front-end visuals where based on:
  - A great brand design.
  - Traditional Greek colours.
  - Powerful food images.
- - Enlighting text, in which it is anticipated that the user would feel positive and maybe daydream to travel or be inspired to cook.
+ - Enlighting and positive text.
+   It is anticipated that the user would feel positive on landing on the site and maybe daydream to travel or be inspired to cook.
 
-The typography colours and fonts therefore where important to promote traditional greek culture, with a tempting, feel good reaction.
+The typography colours and fonts where important to promote traditional greek culture, with a tempting, feel good reaction.
 With the Greek flag and its symbolic colours of blue and white, the sites aim was to incorporate this into its design. 
 
-Users will see that Sauté & Skewers chose a simplistic design with ample whitespace to provide an instant attraction on site opening.
+Users will see that Sauté & Skewers chose a simplistic design with ample whitespace so to not overpower the user.
 
- - colour: #0d47a1 blue darken-4 from Materialize CSS
- - colour: rgb(2, 32, 114) from Colorcodehex 
- - font: Arial from Google Fonts
+ - colour: #0d47a1 blue darken-4  - from Materialize CSS
+ - colour: rgb(2, 32, 114)  - from Colorcodehex 
+ - font: 'Texturina' - from Google Fonts
 
 <hr>
 
@@ -189,40 +201,49 @@ Users will see that Sauté & Skewers chose a simplistic design with ample whites
 
 ### Existing Features
 
-Multiple pages: The site has multiple responsive pages, using the mobile first approach. 
+**Multiple pages:** The site has multiple responsive pages, using the mobile first approach. 
 
-User friendly: Each page has its own purpose and uses a simple mouse movement on desktop and scroll movement on mobiles/tablets to provide easy navigation. 
+**User friendly:** Each page has its own purpose and uses a simple mouse movement on desktop and scroll movement on mobiles and tablets to provide easy navigation. 
 
-Fonts and Colours: Simplistic design incorporating only minimal colour and text.
+**Fonts and Colours:** Simplistic design incorporating only minimal colour and text.
 
-Navbar: A Materialize fixed Navbar at the top on desktop and a side navbar on mobiles and tablets. The navbar links to the site pages, this changes dependent on the users status: Logged in, Logged out.
+**Navbar:** A Materialize fixed Navbar at the top on desktop and a side navbar on mobiles and tablets. The navbar links to the site pages, this changes dependent on the users status: Logged in, Logged out.
 
-Button: Chosen from Materialize the buttons when clicked confirm user actions. Buttons are big and provide instruction. 
+**Button:** Chosen from Materialize the buttons when clicked do something and confirm user actions. Buttons are big and small an over different colours and provide 'word' instruction. 
 
-Forms: Code from Materialize. The Register, Log in, Add Recipe pages all have forms to complete. The forms are self explanatory.
+**Forms:** Code from Materialize. The Register, Log In, Add Recipe and Edit Recipe pages all have forms on that are required to be completed. The forms are self explanatory.
+They have a drop down, so the user can select a recipe category. They also have input fields and textareas that are set with min-length and max-length classes.
 
-Icons: Font Awesome icons are used on the form fields to provide instructions aswell as for design. 
+**Icons:** Font Awesome icons are used on the form fields to provide instructions aswell as for design. 
 
-Images: Bold and relevant images where used in the design. Selected images provide a luxury feel.
+**Images:** Bold and relevant images are used in the design. Selected images provide a luxury feel.
 
-Hyperlink: There is a hyperlink on the 'Register page', 'Login page' and 'Profile page' to redirect users to an alternative area dependent on their next wanted action.
+**Hyperlinks:** There is a hyperlink on the 'Register page', 'Login page' and 'Profile page' to redirect users to an alternative area dependent on their next wanted action.
 
-Flash Messages: Flash messages provide feedback to users. Users that have an unsuccessful login will recieve the message "Incorrect Username and/or Password".
+**Flash Messages:** Flash messages provide feedback to users. Users that have an unsuccessful login will recieve the message "Incorrect Username and/or Password".
 The 'Registered users' will see, "Welcome, USERNAME" on login and on logging out user will recieve the message "You have successfully logged out".
+Flash messages are also used for confirming a recipe has been added, edited and deleted.
 
-Social Media Links: Saute & Skewers has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
+**Favourites Toggle:** A Favourites Toggle for the user to highlight if a recipe is a user favourite.
 
+**Footer:** The footer provides a clear indication of the end of the page.
+
+**Social Media Links:** Sauté & Skewers has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
+
+**Copyright:** Copyright logo - hostes the website owners own work.
 
 ### Future Features
 
 Sauté & Skewers - Future features could include:
 
 - Having a larger database of greek recipes for guest users to view.
+- The recipes could be split over various pages one for each category.
 - An image field on Add Recipe page where users can upload images of their own Greek foods to their recipes.
-- User profile to be extended to allow users to upload images and information about them that other registered users can see.
+- User profile to be extended to allow users to upload images and information about themselves that other registered users can view.
 - Have a logo, incorporate the Sauté & Skewers text into something more memorable.
 - Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
-- A badge or icon level that registered users of the site could achieve, when X number of entries have been added - i.e - Top Contributer.
+- Have a 'Search' bar, so users can search for specific recipem using key words.
+- A badge or icon level that registered users of the site could achieve, when 'X' number of entries have been added - i.e - Top Contributer.
 - A review score or like element that the community of users can click on, if they like or have tried a recipe posted by others.
 - Response section to provide users with feedback on added recipes.
 - Forgotton password feature, so passwords can be reset.
@@ -307,7 +328,7 @@ To ensure the user inputs are correct they are validated by the class 'validate'
 ### Testing
 
 Manual Testing was undertaken during the creation of this site. 
-Testing included tests on various devices for responsiveness and UX aswell as testing code for validation and best practice.
+Testing included tests on various devices for responsiveness and UX aswell as testing code for bugs, validation and best practice.
  - Testing sites used:
    - W3C Markup Validator
    - Pep8 Compliance
@@ -317,33 +338,64 @@ Below highlights the main issues and bugs found during the development.
 
 #### Issue 1
 
-Initial routing wasnt correct, data was coming through to recipes.html as id forgotton the index.html
+Inital issues occured when working on app.py file. It was difficult to clear the errors gitpod advised on. 
+It was realised this was mostly due to the 2 line spacing rule and using the tab key instead of spaces.
 
 #### Issue 2
 
-Edit and Delete routing ...................
+Edit and Delete routing was the developers main issue. It was found to be difficult to resolve and threw many Jinja errors. 
+Errors where cleared when it was found that Flask routing, route decorators and Pymongo had typo's.   
 
 #### Issue 3
 
-The Recipes page, is not working as hoped. Visually its not good ........................
+env.py file - the file kept advising on 'lines being to long', with notes refering to flakes and cornflakes. These errors where not all fixed due to lack of knowledge on developers part.
 
 #### Issue 4
 
-Needed more pages adding to site to allow for guest user and session user interaction. .....
+app.py file - the file errors with 'env imported but unused' and 'over indented' flake8. Again these errors are not fixed due to lack of developers knowledge.
 
 #### Issue 5
 
-The navbar and footer background should have been the same colour. However the developer could not get the colours to match using the Materialize
-colour #2196f3 blue. Therefore decided to use a deeper blue in CSS file, the :rgb(2, 32, 114). 
+All html templates except base.html return 'Doctype must be declared first' errors. As noted during module exercises prior to development this is acceptable due to the linter Gitpod uses not understanding the template language Jinja. 
+
+*When you save the file you might see a warning on the first line, 'Doctype must be declared first'. We can ignore this as the linter doesnt know how to properly read templating languages like Jinja*
+Video: Flask Mini-Project 20 | 01 - Putting The Basics In Place (1e - Template Inheritance) 
+[Code Institute](https://codeinstitute.net/)
 
 #### Issue 6
 
-Materialize Carousel wasnt loading well, the links kept breaking therefore removed after various tests when the developer couldnt fix.
+The Recipes page, doesnt error but the developer failed to solve the issue of coding images that where different for each individual recipe. The idea not initially planned for
+was to have an image that matched the recipe. Therefore a placeholder image was added for better UX, however this placeholder is the same for every recipe inputted.
 
 #### Issue 7
 
-Images on a few pages are not natural looking,  they are to large. For instance on the 'Recipes' page, this is far to big and needs to be reduced.
-Due to time constraints this was not able to be rectified.
+It was found during development that the site definately needed more pages adding. The initial four created an inception and wirframing wasnt going to be enough. 
+This was to allow for guest users to see more than just the home page and register pages. It was realised the guest user needed to be enticed more. Therefore the Highlights page was created.
+Furthermore the registered user required a profile page for when they logged in, and an add recipe, edit recipe and logout page. All additional pages have been created and are suitable for its purpose.
+
+#### Issue 8
+
+The navbar and footer background should have been the same colour. However the developer could not get the colours to match using the Materialize
+colour #2196f3 blue. Therefore it was decided to use a deeper blue in CSS file, using ColourPicker :rgb(2, 32, 114). 
+
+#### Issue 9
+
+The inital plan was to utilize a Carousel on the home page (as referenced on the 'base' wireframe), so the site could house a selection of images that had automatic movement. 
+The developer chose the Materialize framework for this project, however this feature wasnt loading well and was slow to show images and the links kept breaking therefore it was decided to remove the carousel after various tests that the developer couldn't fix.
+In its place one main image was used above 3 small ones. 
+
+#### Issue 10
+
+The image on the Home page is a little large and doesn't sit nicely on the page. On opening the site the bottom of the image is cut off. 
+However as the user can scroll further down to see other content it is acceptable. However something for th developer to look into in the future.
+The same applies on the Highlights page the images are far to big and need to be reduced in size. Due to time constraints this was not able to be rectified.
+
+#### Issue 11
+
+A Favourites toggle was a feature that was thought about adding in midpoint of the project. The idea being that the registered user could 'mark_favourite' a recipe.
+The code was written and the idea was implemented. Unfortunatley the developer was unable to get the function to work correctly, one issue was that it upset the alignment on the recipes page (it added the name of the recipe a second time on the page. Not only did it look out of place it also moved the delete button to the right).
+Therefore this and due to time constraints to continue to develop annd test the code was removed.
+The favourite toggle it still visable on the Add recipe and Edit recipe pages and it can be moved, however it doesnt have a function attached.
 
 
 Validation sites

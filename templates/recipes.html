@@ -35,8 +35,6 @@
 {{ recipe.created_by }}<br>
 </div><br>
 
-{{ recipe.mark_favourite }}<br>
-
 	<!-- edit and delete buttons-->
 	<div class="row">
 		{% if session.user|lower == recipe.created_by|lower %}
