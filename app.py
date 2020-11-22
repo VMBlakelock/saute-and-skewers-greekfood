@@ -17,6 +17,7 @@ app.secret_key = os.environ.get("SECRET_KEY")
 
 mongo = PyMongo(app)
 
+
 # home page
 @app.route("/")
 @app.route("/index")
@@ -153,10 +154,11 @@ def edit_recipe(recipe_id):
     return render_template(
         "edit_recipe.html", recipe=recipe, categories=categories)
 
+
 # delete recipe
-@app.route("/delete_recipe/<recipes_id>")
-def delete_recipe(recipes_id):
-    mongo.db.recipes.remove({"_id": ObjectId(recipes_id)})
+@app.route("/delete_recipe/<recipe_id>")
+def delete_recipe(recipe_id):
+    mongo.db.recipes.remove({"_id": ObjectId(recipe_id)})
     flash("Recipe has been deleted")
     return redirect(url_for("get_recipes"))
 

@@ -6,10 +6,10 @@
 <div class="container">
     <div class="row">
 	<div class="col s6">
-		<img class="responsive-img" src="static/images/pexels-advocado.jpeg" alt="Advocado">
+		<img class="responsive-img" src="static/images/pexels-advocado.jpeg" alt="advocado">
         </div>
     <div class="col s6">
-		<img class="responsive-img" src="static/images/pexels-olive-oil.jpg" alt="Olive-Oil">
+		<img class="responsive-img" src="static/images/pexels-olive-oil.jpg" alt="olive-oil">
         </div>
 	</div>
 </div>
@@ -30,17 +30,10 @@
 		{% if session.user|lower == recipe.created_by|lower %}
 		<a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}"
 			class="col s12 btn-small #0d47a1 blue darken-4 text-shadow">Edit</a>
-		{% endif %}
 
-		<div class="col s9">
-			<strong>{{ recipe.recipe_name }}</strong>
-			{% if recipe.mark_favourite == "on" %}
-			<i class="fas fa-exclamation-circle light-blue-text text-lighten-2 tooltipped"
-                            data-position="right" data-tooltip="Favourite"></i>
-			{% endif %}
-		</div>
-
-		<a href="" class="col s12 btn-small #d50000 red accent-4 text-shadow">Delete</a>
+		<a href="{{ url_for('delete_recipe', recipe_id=recipe._id) }}" 
+        class="col s12 btn-small #d50000 red accent-4 text-shadow">Delete</a>
+        {% endif %}
 	</div>
 
 	{% endfor %}
