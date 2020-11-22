@@ -21,8 +21,8 @@
 - [Testing](#testing)
 - [Evaluation](#evaluation)
 - [Deployment](#deployment)
-- [Credits and References](#creditsandreferences)
-- [Websites Reviewed](#websitesreviewed)
+- [Credits](#credits)
+- [Websites](#websites)
 - [Acknowledgements](#acknowledgements)
 
 <hr>
