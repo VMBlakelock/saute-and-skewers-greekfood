@@ -328,12 +328,16 @@ To ensure the user inputs are correct they are validated by the class 'validate'
 ### Testing
 
 Manual Testing was undertaken during the creation of this site. 
-Testing included tests on various devices for responsiveness and UX aswell as testing code for bugs, validation and best practice.
- - Testing sites used:
+Testing included tests on various devices for responsiveness and UX aswell as testing code for bugs.
+Code was validated for best practice.
+
+ - Validation sites used:
    - W3C Markup Validator
+   - Jshint
    - Pep8 Compliance
 
-Below highlights the main issues and bugs found during the development.
+Below highlights the main issues, bugs and validation errors found during the development and how if possible the issues where rectified.
+Some errors where not rectified, this was due to either lack of developer knowledge or due to time constraints for further reading of validation documentation and/or testing.
 
 
 #### Issue 1
@@ -397,13 +401,50 @@ The code was written and the idea was implemented. Unfortunatley the developer w
 Therefore this and due to time constraints to continue to develop annd test the code was removed.
 The favourite toggle it still visable on the Add recipe and Edit recipe pages and it can be moved, however it doesnt have a function attached.
 
+#### Issue 12
 
-Validation sites
-- When validating the code for HTML and CSS errors where found and rectified. Mostly simple errors and typos.
-- JShint for JS validation found there where xxx warnings, however many was of the same error. Unfortunately a fix wasnt implemented due to lack of understanding on how to resolve them and to time constraints. 
-  Here are the errors 
-  - **
+Google fonts where used throughout development with the CSS font family, set to Arial.
+At the end of the project it was decided to use Google font 'import' to use the font 'Texturina' so it had a more Greek text styling, however it was found during final testing that the font wouldn't change. 
+Google Dev Tools shows the font is set to *font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;*.
+It is believed to be due to a Materialize overide, however cannot be concluded due to the lack of knowledge on Materialize documentation. Something the developer will look into in the future.
+
+
+### Validation sites
+
+- When validating the code for HTML and CSS using [W3C Markup Validation](https://validator.w3.org/), errors where found and some were rectified, rectified errors included simple code errors and typos.
+  However there where some errors the developer was unable to fix. Below shows a few examples.
   
+  base.html
+  - 21 errors found
+  
+  Error: Parse Error.
+    At line 81, column 14
+    >↩		{% endfor %}↩		{% endif %}
+  
+  add_recipe.html
+  - 6 errors found.
+    
+    Error: Text not allowed in element select in this context.
+    From line 32, column 1; to line 32, column 37
+    </option>↩                         {% endfor %}↩     
+
+
+- [Jshint](https://jshint.com/) for JS validation found error warnings, however many was of the same error. Unfortunately a fix wasnt implemented due to lack of understanding on how to resolve them and to time constraints. 
+  Here are the errors for highlight.html
+  - 4 errors found.
+
+  Expected a string and instead saw %.
+  Expected ':' and instead saw 'extends'.
+  Expected '}' and instead saw '%'.
+  Unrecoverable syntax error. (1% scanned).
+
+- [PEP8](http://pep8online.com/) was used for testing Python errors.
+  There where many errors on most pages, mostly referencing tabs and indentation. Again due to time constraints these errors where not rectified.
+  Below are some common examples
+    - missing whitespace around operator
+    - trailing whitespace
+    - indentation contains tabs
+
 
 ### Browsers tested
 
@@ -421,9 +462,12 @@ Mobile:
 - Android - Samsung Galaxy S10 - Outcome: All is responsive.
 
 Laptop:
-- Toshiba Satellite C850 - Outcome: All is responsive. 
+- Toshiba Satellite C850 - Outcome: All is responsive.
+- HP Model I5 - Outcome: All is responsive.
 
-All devices failed to have the Edit and Delete function correctly but this was due to the development of the routing not working.
+The only responsive bug the developer found was on the [Techsini](https://techsini.com/multi-mockup/) - Responsive Mock up.
+On the mock up it shows on I pad that the footer is half way up the page, however in Google Dev Tools this is not the case.
+However due to not havimg an Apple Ipad to physically, it cannot be concluded the site is not responsive.   
 
 <hr>
 
@@ -431,19 +475,17 @@ All devices failed to have the Edit and Delete function correctly but this was d
 ## Evaluation
 
 - Overall the design and development of this site is suitable for its intended purpose.
-- It has all.............. the basic requirements of a functional website and meets .............the project criteria.
-
-- Again to do external commitments the site is not fully complete. The developer is aware of various aspects that dont function as intended or is missing.
-    - The CRUD Functionality is in place, however the developer struggled to wire this up correctly. Therefore Edit and Delete buttons do not do anything.
-    - The Edit Recipies page doesnt show.................
-    
-- Most of the user stories where met, with the exception of .... editing user content.. probabably better to just delete or block user..............
-- Images on the site are not all suitable for the sites look. This is something that needs changing so it gives the site a better visuals.
+- It has all the basic requirements of a functional website and meets CRUD functionality of the project criteria.
+- Due to do external commitments additional features have been left out. The developer is aware of aspects that dont function as intended or are not yet could be added.        
+- Most of the user stories where met, with the exception of editing user content as an Admin User. In the future this can be looked into and implemented along with the option to delete or block user if required.
+- Images on the site are not all suitable for the sites look. It was found to be an issue to find a good seletion of free stock professional images of Greek Cuisine.
+  This is something that can be changed so it gives the site a better visuals. For now some mediterranean images were used. 
 - Many future features could be added to provide more interactive activity, functionality and imagery.
-- Branch testing - No branch testing was undertaken....
-- Manual Testing was undertaken .....Werkzeug ..........................more testing was required..
+- Branch testing - No branch testing was undertaken, something that the developer was intending to do - however was just overlooked.
+- Manual Testing was undertaken and this was found to be successful. It is noted that there are many validation errors that needs to be looked into by the developer at a later date.
+- [Werkzeug](https://palletsprojects.com/p/werkzeug/) was used in this project for authentication and secure passwords. This was new to the developer and was found to be interesting and a great tool to be aware of for future projcts.
 - Some front-end design changes where made during the build due to varying factors:
-    - Materialize image carousel, looked good but didnt load well. Also the developer found it difficult to change the prebuilt images and the links kept breaking.
+    - Materialize image carousel, looked good and fitted the sites initial idea but didnt load well. Also the developer found it difficult to change the prebuilt images and the image links kept breaking.
     - The site was to have 4 pages initally but it was discovered early in development that more pages would be required.
 
 <hr>
@@ -512,7 +554,7 @@ If you want to run this project locally, we must clone the project.
 4. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type 'git clone' and paste the URL you copied.
 
-- Example: git clone  = https://YOURNAME.github.io/saute-and-skewers-greekfood/
+- Example: git clone  = https://github.com/VMBlakelock/saute-and-skewers-greekfood
 
 6. Press Enter. Your local clone is now created.
 
@@ -523,11 +565,12 @@ If you want to run this project locally, we must clone the project.
 ## Credits and References
 
 Personal credits go out to the following people:
-- Spencer Barriball mentor who guided in the development of the project at inception stage. 
+- Spencer Barriball the developers mentor who guided in the development of the project at inception stage. 
 
 Tutor Support
 - Tim Nelson from tutor support who clarified issues within Cloud 9 videos and Gitpod usage.
-- Samantha from student support who tried to assist with the routhing issue. Although time was to tight and this wasnt rectified.
+- Samantha from student support who tried to assist with the routhing issues although the issue wasnt solved during the session.
+  Samantha guided the developer to look at the areas needed to rectify.
 
 
 Web References
@@ -594,13 +637,14 @@ Websites reviewed and used during the creation of this project.
 
 ## Acknowledgements
 
-[Slack](https://slack.com/intl/en-gb/) and the wonderful community of students past and present for thier motivational pushes.
+[Slack](https://slack.com/intl/en-gb/) and the wonderful community of students past and present for their motivational pushes.
 
 My mentor Spencer Barriball and initial guidance on the development of the website.
 
 [Code Institute](https://codeinstitute.net/) Tutor Support for guidance and assistance when facing difficulties.
 
-The developers own personal experiences during the creation and development of this project.
+The developers own personal experiences due to Lockdown 2.0, keeping motivated and positive when faced with tough challenges during the creation and development of this project.
+
 
 
 *created for education purposes only*
