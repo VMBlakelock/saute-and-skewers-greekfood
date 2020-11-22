@@ -419,7 +419,6 @@ It is believed to be due to a Materialize override, however cannot be concluded 
   
   Error: Parse Error.
     At line 81, column 14
-    ↩		{% endfor %}↩		{% endif %}
   
   add_recipe.html
   - 6 errors found.
