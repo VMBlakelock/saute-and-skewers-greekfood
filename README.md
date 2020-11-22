@@ -396,9 +396,9 @@ The same applies on the Highlights page the images are far too big and need to b
 
 #### Issue 11
 
-A Favourites toggle was a feature that was thought about adding in midpoint of the project. The idea being that the registered user could 'mark_favourite' a recipe.
+A Favourites toggle was a feature that was considered at midpoint of the project. The idea being that the registered user could 'mark_favourite' a recipe.
 The code was written and the idea was implemented. Unfortunately the developer was unable to get the function to work correctly, one issue was that it upset the alignment on the recipes page (it added the name of the recipe a second time on the page. Not only did it look out of place it also moved the delete button to the right).
-Therefore this and due to time constraints to continue to develop annd test the code was removed.
+Therefore this and due to time constraints to continue to develop and test the code in recipes.html was removed. but left in the add_recipe.html and in edit_recipe.html ready for implentation in the future.
 The favourite toggle it still visable on the Add recipe and Edit recipe pages and it can be moved, however it doesnt have a function attached.
 
 #### Issue 12
