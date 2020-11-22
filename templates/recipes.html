@@ -19,12 +19,20 @@
 
 <div class="row card-panel #fafafa grey lighten-5">
 
-	{{ recipe.category_name }}<br>
+<div class="p-text titles-style">
+	{{ recipe.category_name }} 
+    </div><br>
 
+<div class="p-text">
 {{ recipe.recipe_name }}<br>
 {{ recipe.recipe_ingredients }}<br>
 {{ recipe.recipe_method }}<br>
+</div><br>
+
+<div class="p-text titles-style">
 {{ recipe.created_by }}<br>
+</div><br>
+
 {{ recipe.mark_favourite }}<br>
 
 	<!-- edit and delete buttons-->
