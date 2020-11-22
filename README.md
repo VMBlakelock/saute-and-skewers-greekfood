@@ -14,24 +14,24 @@
 - [Aim](#aim)
 - [Purpose](#purpose)
 - [UX](#ux)
-- [The 5 Planes of content strategy](#the_5_planes_of_content_strategy)
+- [The 5 Planes of content strategy](#the5planesofcontentstrategy)
 - [Features](#features)
-- [Technologies and Frameworks](#technologies_and_frameworks)
-- [Defensive Design](#defensive_design)
+- [Technologies and Frameworks](#technologiesandframeworks)
+- [Defensive Design](#defensivedesign)
 - [Testing](#testing)
 - [Evaluation](#evaluation)
 - [Deployment](#deployment)
-- [Credits and References](#credits_and_references)
-- [Websites Reviewed](#websites_reviewed)
+- [Credits and References](#creditsandreferences)
+- [Websites Reviewed](#websitesreviewed)
 - [Acknowledgements](#acknowledgements)
 
 <hr>
 
 ## Introduction
 
-With visitors from all over the world Greece is notably a favourite destination to all tourists. One of Greece's well known highlights is by far it's food.
+With visitors from all over the world Greece is notably a favourite destination to all tourists. One of Greece's well known highlights is by far its food.
 
-From street food to quality cuisine and finally Mama's homecooked treats, the Greek have a wide variety of superb delights to offer.
+From street food to quality cuisine and finally Mama's home cooked treats, the Greek have a wide variety of superb delights to offer.
 
 This site allows the owner(admin) user to showcase their best loved recipes and hopes to gain traffic in the form of registered users to form a fantastic database of user favourites.
 
@@ -120,10 +120,10 @@ The website owner would like the website design to:
 - It features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and Flask. 
 - The project uses a MongoDB database. 
 - There is a clear brand to the site that draws users and entices further interaction.
-- Users who discover Sauté & Skewers, easily grasps it's concept - how it works and what it's output is.
+- Users who discover Sauté & Skewers, easily grasps its concept - how it works and what its output is.
 - Sauté & Skewers has the potential of not only being a content sharing site, it could potentially become a business site. 
-  Adding a few addtional features and marketing the site well could mean Sauté & Skewers could generate revenues.
-- During research there where other sites found that had the same 'recipe adding' concept, although the Greek aspect was minimal. 
+  Adding a few additional features and marketing the site well could mean Sauté & Skewers could generate revenues.
+- During research there were other sites found that had the same 'recipe adding' concept, although the Greek aspect was minimal. 
 
 
 ### Scope 
@@ -131,7 +131,7 @@ The website owner would like the website design to:
 - The site was developed with the intention of allowing users to build a database of their own recipes.
 - The database of choice to build with was NoSQL - MongoDB.
 - It was scoped to provide ease of use.
-- Needed to have the CRUD functonality.
+- Needed to have the CRUD functionality.
 - Must house a home page, registration page, log in page, log out page.
 - Be responsive on all devices.
 - Be visually appealing that incorporated Greek culture in the front-end design.
@@ -139,7 +139,7 @@ The website owner would like the website design to:
 
 ### Structure
 
-- Sauté & Skewers site structure was created from the UX user stories - therefore developed with pages that where required to enable users to sign up and add data.
+- Sauté & Skewers site structure was created from the UX user stories - therefore developed with pages that were required to enable users to sign up and add data.
 - All pages are designed identically with 3 sections - a navbar, content area and a footer.
 - The Home page has 'Welcome' text that introduces the site. An 'About Us' section that gives instruction to join. A main image and 3 smaller images. 
 - The Highlights page shows a selection of recipe content and images for all users to view. This can be updated and/or changed - as and when the owner wants.
@@ -183,10 +183,10 @@ Front-end visuals where based on:
  - A great brand design.
  - Traditional Greek colours.
  - Powerful food images.
- - Enlighting and positive text.
+ - Enlightening and positive text.
    It is anticipated that the user would feel positive on landing on the site and maybe daydream to travel or be inspired to cook.
 
-The typography colours and fonts where important to promote traditional greek culture, with a tempting, feel good reaction.
+The typography colours and fonts where important to promote traditional Greek culture, with a tempting, feel good reaction.
 With the Greek flag and its symbolic colours of blue and white, the sites aim was to incorporate this into its design. 
 
 Users will see that Sauté & Skewers chose a simplistic design with ample whitespace so to not overpower the user.
@@ -220,8 +220,8 @@ They have a drop down, so the user can select a recipe category. They also have 
 
 **Hyperlinks:** There is a hyperlink on the 'Register page', 'Login page' and 'Profile page' to redirect users to an alternative area dependent on their next wanted action.
 
-**Flash Messages:** Flash messages provide feedback to users. Users that have an unsuccessful login will recieve the message "Incorrect Username and/or Password".
-The 'Registered users' will see, "Welcome, USERNAME" on login and on logging out user will recieve the message "You have successfully logged out".
+**Flash Messages:** Flash messages provide feedback to users. Users that have an unsuccessful login will receive the message "Incorrect Username and/or Password".
+The 'Registered users' will see, "Welcome, USERNAME" on login and on logging out user will receive the message "You have successfully logged out".
 Flash messages are also used for confirming a recipe has been added, edited and deleted.
 
 **Favourites Toggle:** A Favourites Toggle for the user to highlight if a recipe is a user favourite.
@@ -230,26 +230,26 @@ Flash messages are also used for confirming a recipe has been added, edited and 
 
 **Social Media Links:** Sauté & Skewers has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
 
-**Copyright:** Copyright logo - hostes the website owners own work.
+**Copyright:** Copyright logo - hosts the website owners own work.
 
 ### Future Features
 
 Sauté & Skewers - Future features could include:
 
-- Having a larger database of greek recipes for guest users to view.
+- Having a larger database of Greek recipes for guest users to view.
 - The recipes could be split over various pages one for each category.
 - An image field on Add Recipe page where users can upload images of their own Greek foods to their recipes.
 - User profile to be extended to allow users to upload images and information about themselves that other registered users can view.
 - Have a logo, incorporate the Sauté & Skewers text into something more memorable.
 - Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
-- Have a 'Search' bar, so users can search for specific recipem using key words.
-- A badge or icon level that registered users of the site could achieve, when 'X' number of entries have been added - i.e - Top Contributer.
+- Have a 'Search' bar, so users can search for specific recipe using key words.
+- A badge or icon level that registered users of the site could achieve, when 'X' number of entries have been added - i.e - Top Top Contributor.
 - A review score or like element that the community of users can click on, if they like or have tried a recipe posted by others.
 - Response section to provide users with feedback on added recipes.
-- Forgotton password feature, so passwords can be reset.
+- Forgotten password feature, so passwords can be reset.
 - A blog that promotes more of Greece - locations, its culture aswell as it foods.
 - A messenger area where registered users can chat to each other live on the site.
-- An e commerce shop where users could order greek foods and merchandise.
+- An e commerce shop where users could order Greek foods and merchandise.
 
 <hr>
 
@@ -278,7 +278,7 @@ Sauté & Skewers - Future features could include:
 
 #### Database
 - [MongoDB](https://www.mongodb.com/cloud/atlas/)
-    - A document based database, and the type of databased used when developing this project
+    - A document based database and the type of database used when developing this project
 
 #### Text Editor
 - [Gitpod](https://gitpod.io/)
@@ -336,13 +336,13 @@ Code was validated for best practice.
    - Jshint
    - Pep8 Compliance
 
-Below highlights the main issues, bugs and validation errors found during the development and how if possible the issues where rectified.
+Below highlights the main issues, bugs and validation errors found during the development and how if possible the issues were rectified.
 Some errors where not rectified, this was due to either lack of developer knowledge or due to time constraints for further reading of validation documentation and/or testing.
 
 
 #### Issue 1
 
-Inital issues occured when working on app.py file. It was difficult to clear the errors gitpod advised on. 
+Initial issues occurred when working on app.py file. It was difficult to clear the errors Gitpod advised on. 
 It was realised this was mostly due to the 2 line spacing rule and using the tab key instead of spaces.
 
 #### Issue 2
@@ -352,7 +352,7 @@ Errors where cleared when it was found that Flask routing, route decorators and 
 
 #### Issue 3
 
-env.py file - the file kept advising on 'lines being to long', with notes refering to flakes and cornflakes. These errors where not all fixed due to lack of knowledge on developers part.
+env.py file - the file kept advising on 'lines being to long', with notes referring to flakes and cornflakes. These errors where not all fixed due to lack of knowledge on developers part.
 
 #### Issue 4
 
@@ -362,18 +362,18 @@ app.py file - the file errors with 'env imported but unused' and 'over indented'
 
 All html templates except base.html return 'Doctype must be declared first' errors. As noted during module exercises prior to development this is acceptable due to the linter Gitpod uses not understanding the template language Jinja. 
 
-*When you save the file you might see a warning on the first line, 'Doctype must be declared first'. We can ignore this as the linter doesnt know how to properly read templating languages like Jinja*
+*When you save the file you might see a warning on the first line, 'Doctype must be declared first'. We can ignore this as the linter doesn't know how to properly read templating languages like Jinja*
 Video: Flask Mini-Project 20 | 01 - Putting The Basics In Place (1e - Template Inheritance) 
 [Code Institute](https://codeinstitute.net/)
 
 #### Issue 6
 
-The Recipes page, doesnt error but the developer failed to solve the issue of coding images that where different for each individual recipe. The idea not initially planned for
+The Recipes page, doesn't error but the developer failed to solve the issue of coding images that where different for each individual recipe. The idea not initially planned for
 was to have an image that matched the recipe. Therefore a placeholder image was added for better UX, however this placeholder is the same for every recipe inputted.
 
 #### Issue 7
 
-It was found during development that the site definately needed more pages adding. The initial four created an inception and wirframing wasnt going to be enough. 
+It was found during development that the site definitely needed more pages adding. The initial four created an inception and wireframing wasn't going to be enough. 
 This was to allow for guest users to see more than just the home page and register pages. It was realised the guest user needed to be enticed more. Therefore the Highlights page was created.
 Furthermore the registered user required a profile page for when they logged in, and an add recipe, edit recipe and logout page. All additional pages have been created and are suitable for its purpose.
 
@@ -385,19 +385,19 @@ colour #2196f3 blue. Therefore it was decided to use a deeper blue in CSS file, 
 #### Issue 9
 
 The inital plan was to utilize a Carousel on the home page (as referenced on the 'base' wireframe), so the site could house a selection of images that had automatic movement. 
-The developer chose the Materialize framework for this project, however this feature wasnt loading well and was slow to show images and the links kept breaking therefore it was decided to remove the carousel after various tests that the developer couldn't fix.
+The developer chose the Materialize framework for this project, however this feature wasn't loading well and was slow to show images and the links kept breaking therefore it was decided to remove the carousel after various tests that the developer couldn't fix.
 In its place one main image was used above 3 small ones. 
 
 #### Issue 10
 
 The image on the Home page is a little large and doesn't sit nicely on the page. On opening the site the bottom of the image is cut off. 
-However as the user can scroll further down to see other content it is acceptable. However something for th developer to look into in the future.
-The same applies on the Highlights page the images are far to big and need to be reduced in size. Due to time constraints this was not able to be rectified.
+However as the user can scroll further down to see other content it is acceptable. However something for the developer to look into in the future.
+The same applies on the Highlights page the images are far too big and need to be reduced in size. Due to time constraints this was not able to be rectified.
 
 #### Issue 11
 
 A Favourites toggle was a feature that was thought about adding in midpoint of the project. The idea being that the registered user could 'mark_favourite' a recipe.
-The code was written and the idea was implemented. Unfortunatley the developer was unable to get the function to work correctly, one issue was that it upset the alignment on the recipes page (it added the name of the recipe a second time on the page. Not only did it look out of place it also moved the delete button to the right).
+The code was written and the idea was implemented. Unfortunately the developer was unable to get the function to work correctly, one issue was that it upset the alignment on the recipes page (it added the name of the recipe a second time on the page. Not only did it look out of place it also moved the delete button to the right).
 Therefore this and due to time constraints to continue to develop annd test the code was removed.
 The favourite toggle it still visable on the Add recipe and Edit recipe pages and it can be moved, however it doesnt have a function attached.
 
@@ -406,13 +406,13 @@ The favourite toggle it still visable on the Add recipe and Edit recipe pages an
 Google fonts where used throughout development with the CSS font family, set to Arial.
 At the end of the project it was decided to use Google font 'import' to use the font 'Texturina' so it had a more Greek text styling, however it was found during final testing that the font wouldn't change. 
 Google Dev Tools shows the font is set to *font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;*.
-It is believed to be due to a Materialize overide, however cannot be concluded due to the lack of knowledge on Materialize documentation. Something the developer will look into in the future.
+It is believed to be due to a Materialize override, however cannot be concluded due to the lack of knowledge on Materialize documentation. Something the developer will look into in the future.
 
 
 ### Validation sites
 
 - When validating the code for HTML and CSS using [W3C Markup Validation](https://validator.w3.org/), errors where found and some were rectified, rectified errors included simple code errors and typos.
-  However there where some errors the developer was unable to fix. Below shows a few examples.
+  However there were some errors the developer was unable to fix. Below shows a few examples.
   
   base.html
   - 21 errors found
@@ -429,7 +429,7 @@ It is believed to be due to a Materialize overide, however cannot be concluded d
     </option>↩                         {% endfor %}↩     
 
 
-- [Jshint](https://jshint.com/) for JS validation found error warnings, however many was of the same error. Unfortunately a fix wasnt implemented due to lack of understanding on how to resolve them and to time constraints. 
+- [Jshint](https://jshint.com/) for JS validation found error warnings, however many was of the same error. Unfortunately a fix wasn't implemented due to lack of understanding on how to resolve them and to time constraints. 
   Here are the errors for highlight.html
   - 4 errors found.
 
@@ -439,7 +439,7 @@ It is believed to be due to a Materialize overide, however cannot be concluded d
   Unrecoverable syntax error. (1% scanned).
 
 - [PEP8](http://pep8online.com/) was used for testing Python errors.
-  There where many errors on most pages, mostly referencing tabs and indentation. Again due to time constraints these errors where not rectified.
+  There were many errors on most pages, mostly referencing tabs and indentation. Again due to time constraints these errors were not rectified.
   Below are some common examples
     - missing whitespace around operator
     - trailing whitespace
@@ -467,7 +467,7 @@ Laptop:
 
 The only responsive bug the developer found was on the [Techsini](https://techsini.com/multi-mockup/) - Responsive Mock up.
 On the mock up it shows on I pad that the footer is half way up the page, however in Google Dev Tools this is not the case.
-However due to not havimg an Apple Ipad to physically, it cannot be concluded the site is not responsive.   
+However due to not having an Apple Ipad to physically, it cannot be concluded the site is not responsive.   
 
 <hr>
 
@@ -476,17 +476,17 @@ However due to not havimg an Apple Ipad to physically, it cannot be concluded th
 
 - Overall the design and development of this site is suitable for its intended purpose.
 - It has all the basic requirements of a functional website and meets CRUD functionality of the project criteria.
-- Due to do external commitments additional features have been left out. The developer is aware of aspects that dont function as intended or are not yet could be added.        
+- Due to do external commitments additional features have been left out. The developer is aware of aspects that don't function as intended or are not yet could be added.        
 - Most of the user stories where met, with the exception of editing user content as an Admin User. In the future this can be looked into and implemented along with the option to delete or block user if required.
-- Images on the site are not all suitable for the sites look. It was found to be an issue to find a good seletion of free stock professional images of Greek Cuisine.
-  This is something that can be changed so it gives the site a better visuals. For now some mediterranean images were used. 
+- Images on the site are not all suitable for the sites look. It was found to be an issue to find a good selection of free stock professional images of Greek Cuisine.
+  This is something that can be changed so it gives the site a better visual. For now some Mediterranean images were used. 
 - Many future features could be added to provide more interactive activity, functionality and imagery.
 - Branch testing - No branch testing was undertaken, something that the developer was intending to do - however was just overlooked.
 - Manual Testing was undertaken and this was found to be successful. It is noted that there are many validation errors that needs to be looked into by the developer at a later date.
-- [Werkzeug](https://palletsprojects.com/p/werkzeug/) was used in this project for authentication and secure passwords. This was new to the developer and was found to be interesting and a great tool to be aware of for future projcts.
-- Some front-end design changes where made during the build due to varying factors:
+- [Werkzeug](https://palletsprojects.com/p/werkzeug/) was used in this project for authentication and secure passwords. This was new to the developer and was found to be interesting and a great tool to be aware of for future projects.
+- Some front-end design changes were made during the build due to varying factors:
     - Materialize image carousel, looked good and fitted the sites initial idea but didnt load well. Also the developer found it difficult to change the prebuilt images and the image links kept breaking.
-    - The site was to have 4 pages initally but it was discovered early in development that more pages would be required.
+    - The site was to have 4 pages initially but it was discovered early in development that more pages would be required.
 
 <hr>
 
@@ -498,7 +498,7 @@ However due to not havimg an Apple Ipad to physically, it cannot be concluded th
 The project is deployed to Heroku. It uses the automatic deployment method via Github, using your Github repository.
 Below shows the steps to deploy on Heroku:
 
-1. Heroku requires certain dependencies and applications to run our application. There we need to tell it whats required. 
+1. Heroku requires certain dependencies and applications to run our application. There we need to tell it what is required. 
    In the terminal type 
    - $ pip3 freeze --local > requirements.txt
    - $ echo web: python app.py > Procfile
@@ -565,11 +565,11 @@ If you want to run this project locally, we must clone the project.
 ## Credits and References
 
 Personal credits go out to the following people:
-- Spencer Barriball the developers mentor who guided in the development of the project at inception stage. 
+- Spencer Barriball the developer's mentor who guided in the development of the project at inception stage. 
 
 Tutor Support
 - Tim Nelson from tutor support who clarified issues within Cloud 9 videos and Gitpod usage.
-- Samantha from student support who tried to assist with the routhing issues although the issue wasnt solved during the session.
+- Samantha from student support who tried to assist with the routing issues although the issue wasnt solved during the session.
   Samantha guided the developer to look at the areas needed to rectify.
 
 
@@ -588,13 +588,13 @@ Websites reviewed and used during the creation of this project.
   - Used for creating the wireframe mocks.
   
 - [Bootstrap](https://getbootstrap.com/)
-  - Researching carousel functionality, although wasnt used in the project.
+  - Researching carousel functionality, although wasn't used in the project.
 
 - [Codeacademy](https://www.codeacademy.com/articles/what-is-crud/)
   - Article referring to "what is CRUD and its uses".
 
 - [Google Fonts](https://www.fonts.google.com/basic-syntax/)
-  - Used for choosing inital font.
+  - Used for choosing initial font.
 
 - [Jshint](https://jshint.com/)
   - Validation testing of Javascript.
@@ -637,17 +637,17 @@ Websites reviewed and used during the creation of this project.
 
 ## Acknowledgements
 
-[Slack](https://slack.com/intl/en-gb/) and the wonderful community of students past and present for their motivational pushes.
+[Slack](https://slack.com/intl/en-gb/) , and the wonderful community of students past and present for their motivational pushes.
 
 My mentor Spencer Barriball and initial guidance on the development of the website.
 
 [Code Institute](https://codeinstitute.net/) Tutor Support for guidance and assistance when facing difficulties.
 
-The developers own personal experiences due to Lockdown 2.0, keeping motivated and positive when faced with tough challenges during the creation and development of this project.
+The developer's own personal experiences due to Lockdown 2.0, keeping motivated and positive when faced with tough challenges during the creation and development of this project.
 
 
 
-*created for education purposes only*
+*Created for education purposes only*
 
 
 
