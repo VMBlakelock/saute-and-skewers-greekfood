@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap:100,200,300,400,500,600,700');
 
 /*-- body styles --*/
 
-.html body {
-    font-family: Arial, Helvetica, Sans-serif;
+.body {
+    font-family:'Texturina', serif;
 }
 
 .text-shadow {
@@ -53,6 +54,7 @@
     padding: 5px; 
 }
 
+
 /*-- paragraph_text --*/
 
 .p-text {
@@ -99,8 +101,16 @@
 
 /*-- recipes.html --*/
 
+
 .btn-small {
+    margin-top: 20px;
+    margin-right: 10px;
     max-width: 70px;
+}
+
+.small_img {
+    max-width: 100px;
+    max-height: 100px;
 }
 
 /*-- add_recipe.html --*/
@@ -116,18 +126,6 @@
     text-decoration: underline;
 }
 
-
-/*-- recipes.html --*/
-
-.btn-small {
-    margin-top: 20px;
-    margin-right: 10px;
-}
-
-.small_img {
-    max-width: 100px;
-    max-height: 100px;
-}
 
 /*-- footer --*/
 
