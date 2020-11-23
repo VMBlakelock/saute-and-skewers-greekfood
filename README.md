@@ -423,7 +423,7 @@ It is believed to be due to a Materialize override, however cannot be concluded 
   add_recipe.html
   - 6 errors found.
     
-Error: Text not allowed in element select in this context.
+  Error: Text not allowed in element select in this context.
     From line 32, column 1; to line 32, column 37    
 
 
