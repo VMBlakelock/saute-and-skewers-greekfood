@@ -569,6 +569,7 @@ Tutor Support
 - Tim Nelson from tutor support who clarified issues within Cloud 9 videos and Gitpod usage.
 - Samantha from student support who tried to assist with the routing issues although the issue wasnt solved during the session.
   Samantha guided the developer to look at the areas needed to rectify.
+- Michael and Igor for assisting on final housekeeping and security questions prior to submitting.
 
 
 Web References
